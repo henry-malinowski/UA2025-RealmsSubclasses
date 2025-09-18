@@ -49,7 +49,7 @@
   "media": [
     {
         "type": "setup",
-        "url": "modules/UA2025-RealmsSubclasses/assets/module-banner.webp",
+        "url": "modules/UA2025-RealmsSubclasses/assets/module-media.webp",
         "loop": false,
         "flags": {}
     }
