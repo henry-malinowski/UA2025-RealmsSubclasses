@@ -10,6 +10,7 @@ A Foundry implementation of the UA2025-RealmsSubclasses document released on D&a
 
 - Full subclass integration in the FoundryVTT compendium system
 - Macro to easily switch between a Paladin's Aura of Elemental Warding
+- 4 Purple Dragon Companion stat-blocks that automatically scale as your Purple Dragon Knight levels up
 
 ## Subclasses
 
@@ -46,3 +47,4 @@ If you wish to manually install the module, you must clone or extract it into th
 
 - Purple Dragon Companion - Tales of the Valient Monster Vault
 - All other - Wizards of the Coast
+  - Compendium art by Cris Rallis
