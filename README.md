@@ -1,20 +1,22 @@
 ![](https://img.shields.io/badge/Foundry-v13-informational)
 
 # UA2025-RealmsSubclasses
+
 A Foundry implementation of the UA2025-RealmsSubclasses document released on D&amp;DBeyond
 
 # Features
 
-* Full subclass integration in the FoundryVTT compendium system
-* Purple Dragon Companion scaling stat block (due to limitation in the dnd5e system a macro is required to add half-prof to saves and check as well as Rend's Attack bonus and damage)
-* Macro to easily switch between a Paladin's Aura of Elemental Warding
+- Full subclass integration in the FoundryVTT compendium system
+- Macro to easily switch between a Paladin's Aura of Elemental Warding
 
 ## New Compendia
+
 <img src="https://raw.githubusercontent.com/henry-malinowski/UA2025-RealmsSubclasses/refs/heads/main/github-assets/example_1.png">
 
 <img src="https://raw.githubusercontent.com/henry-malinowski/UA2025-RealmsSubclasses/refs/heads/main/github-assets/example_2.png">
 
 ## Aura of Elemental Warding macro
+
 <img src="https://raw.githubusercontent.com/henry-malinowski/UA2025-RealmsSubclasses/refs/heads/main/github-assets/example_3.png">
 
 # Installation Instructions
@@ -28,5 +30,6 @@ If you wish to manually install the module, you must clone or extract it into th
 ---
 
 # Art Credit:
-* Purple Dragon Companion - Tales of the Valient Monster Vault
-* All other - Wizards of the Coast
+
+- Purple Dragon Companion - Tales of the Valient Monster Vault
+- All other - Wizards of the Coast
