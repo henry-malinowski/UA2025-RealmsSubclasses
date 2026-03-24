@@ -6,10 +6,21 @@ More information about the [5eUA for FoundryVTT](https://henry-malinowski.github
 
 A Foundry implementation of the UA2025-RealmsSubclasses document released on D&amp;DBeyond
 
-# Features
+## Features
 
 - Full subclass integration in the FoundryVTT compendium system
 - Macro to easily switch between a Paladin's Aura of Elemental Warding
+
+## Subclasses
+
+- Moonlight _inspireing Allies with your primal tales_ as the **College of the Moon** (Bard)
+- With the **Knowledge Domain** (Cleric) you will _unearth secrets and master the mind_
+- _Herald the majesty of Amethyst Dragons_ across the battlefield with the **Purple Dragon Knight** (Fighter)
+- Swear an **Oath of the Noble Genies** and _brandish their Elemental splendor_
+- _Withstand the horrors of the frigid wastelands_ and its haunts as the **Winter Walker** (Ranger)
+- Live your Durge fantasy - a gruesome agent of malice - with the **Scion of the Three** (Rogue)
+- As a **Spellfire Sorcery** (Sorcerer) - _radiate raw magic potential_
+- And finally, _wield sword and sorcery in elegant tandem_ as the fan-favorite **Bladesinger** (Wizard)
 
 ## New Compendia
 
