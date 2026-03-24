@@ -1,138 +1,124 @@
 {
-  "id": "UA2025-RealmsSubclasses",
-  "title": "UA2025: Realms Subclasses",
-  "description": "A Foundry implementation of the UA2025-RealmsSubclasses document released on D&amp;DBeyond",
-  "version": "1.0.0",
-  "compatibility": {
-    "minimum": "13",
-    "verified": "13.348"
-  },
-  "socket": true,
-  "esmodules": [
-    "scripts/UA2025-RealmsSubclasses.js"
-  ],
-  "scripts": [
-    "scripts/aura-selector.js",
-    "scripts/updatePurpleDragonCompanion.js"
-  ],
-  "relationships": {
-    "requires": [
-      {
-        "id": "dnd-players-handbook",
-        "type": "module",
-        "compatibility": {}
-      },
-      {
-        "id": "socketlib",
-        "type": "module",
-        "manifest": "https://github.com/farling42/foundryvtt-socketlib/releases/latest/download/module.json"
-      }
-    ],
-    "systems": [
-      {
-        "id": "dnd5e",
-        "type": "system",
-        "compatibility": {
-          "minimum": "5.1",
-          "verified": "5.1.9"
-        }
-      }
-    ]
-  },
-  "authors": [
-    {
-      "name": "Henry Malinowski",
-      "discord": "hmalinowski",
-      "flags": {}
-    }
-  ],
-  "media": [
-    {
-        "type": "setup",
-        "url": "modules/UA2025-RealmsSubclasses/assets/module-media.webp",
-        "loop": false,
-        "flags": {}
-    }
-  ],
-  "packs": [
-    {
-      "name": "content",
-      "label": "Realms UA Document",
-      "path": "packs/content",
-      "type": "JournalEntry",
-      "banner": "modules/UA2025-RealmsSubclasses/assets/compendium/banner-01.webp",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
-    },
-    {
-      "name": "classes",
-      "label": "Character Classes",
-      "path": "packs/classes",
-      "type": "Item",
-      "banner": "modules/UA2025-RealmsSubclasses/assets/compendium/banner-02.webp",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
-    },
-    {
-      "name": "actors",
-      "label": "Actors",
-      "path": "packs/actors",
-      "type": "Actor",
-      "banner": "modules/UA2025-RealmsSubclasses/assets/compendium/banner-03.webp",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
-    },
-    {
-      "name": "macros",
-      "label": "Macros",
-      "path": "packs/macros",
-      "type": "Macro",
-      "banner": "modules/UA2025-RealmsSubclasses/assets/compendium/banner-04.webp",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
-    }
-  ],
-  "packFolders": [
-    {
-      "name": "UA2025-RealmsSubclasses",
-      "color": "#A0974B",
-      "sorting": "m",
-      "packs": [
-        "content",
-        "classes",
-        "actors",
-        "macros"
-      ],
-      "folders": []
-    }
-  ],
-  "flags": {
-    "dnd5e": {
-      "sourceBooks": {
-        "UA2025-RealmsSubclasses": "UA2025-RealmsSubclasses"
-      }
-    }
-  },
-  "readme": "https://github.com/henry-malinowski/UA2025-RealmsSubclasses/master/Readme.md",
-  "bugs": "https://github.com/henry-malinowski/UA2025-RealmsSubclasses/-/issues",
-  "changelog": "https://github.com/henry-malinowski/UA2025-RealmsSubclasses/master/Changelog.md",
-  "url": "https://github.com/henry-malinowski/UA2025-RealmsSubclasses",
-  "manifest": "https://raw.githubusercontent.com/henry-malinowski/UA2025-RealmsSubclasses/refs/heads/main/module.json",
-  "download": "https://github.com/henry-malinowski/UA2025-RealmsSubclasses/releases/download/v1.0.0/module.zip"
+	"id": "UA2025-RealmsSubclasses",
+	"title": "UA2025: Realms Subclasses",
+	"description": "A Foundry implementation of the UA2025-RealmsSubclasses document released on D&amp;DBeyond",
+	"version": "2.0.0",
+	"compatibility": {
+		"minimum": "13.347",
+		"verified": "13.351"
+	},
+	"socket": true,
+	"esmodules": ["scripts/UA2025-RealmsSubclasses.mjs"],
+	"relationships": {
+		"requires": [
+			{
+				"id": "dnd-players-handbook",
+				"type": "module",
+				"compatibility": {
+					"verified": "2.1.0"
+				}
+			}
+		],
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"compatibility": {
+					"minimum": "5.2.4",
+					"verified": "5.2.5"
+				}
+			}
+		]
+	},
+	"authors": [
+		{
+			"name": "Henry Malinowski",
+			"discord": "hmalinowski",
+			"flags": {}
+		}
+	],
+	"media": [
+		{
+			"type": "setup",
+			"url": "modules/UA2025-RealmsSubclasses/assets/module-media.webp",
+			"loop": false,
+			"flags": {}
+		}
+	],
+	"packs": [
+		{
+			"name": "content",
+			"label": "Realms UA Document",
+			"path": "packs/content",
+			"type": "JournalEntry",
+			"banner": "modules/UA2025-RealmsSubclasses/assets/compendium/banner-01.webp",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"system": "dnd5e",
+			"flags": {}
+		},
+		{
+			"name": "classes",
+			"label": "Character Classes",
+			"path": "packs/classes",
+			"type": "Item",
+			"banner": "modules/UA2025-RealmsSubclasses/assets/compendium/banner-02.webp",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"system": "dnd5e",
+			"flags": {}
+		},
+		{
+			"name": "actors",
+			"label": "Actors",
+			"path": "packs/actors",
+			"type": "Actor",
+			"banner": "modules/UA2025-RealmsSubclasses/assets/compendium/banner-03.webp",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"system": "dnd5e",
+			"flags": {}
+		},
+		{
+			"name": "macros",
+			"label": "Macros",
+			"path": "packs/macros",
+			"type": "Macro",
+			"banner": "modules/UA2025-RealmsSubclasses/assets/compendium/banner-04.webp",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"system": "dnd5e",
+			"flags": {}
+		}
+	],
+	"packFolders": [
+		{
+			"name": "UA2025-RealmsSubclasses",
+			"color": "#a89389",
+			"sorting": "m",
+			"packs": ["content", "classes", "actors", "macros"],
+			"folders": []
+		}
+	],
+	"flags": {
+		"dnd5e": {
+			"sourceBooks": {
+				"UA2025-RealmsSubclasses": "UA2025-RealmsSubclasses"
+			}
+		}
+	},
+	"readme": "https://github.com/henry-malinowski/UA2025-RealmsSubclasses#readme",
+	"bugs": "https://github.com/henry-malinowski/UA2025-RealmsSubclasses/issues",
+	"changelog": "https://github.com/henry-malinowski/UA2025-RealmsSubclasses/blob/main/CHANGELOG.md",
+	"url": "https://github.com/henry-malinowski/UA2025-RealmsSubclasses",
+	"manifest": "https://github.com/henry-malinowski/UA2025-RealmsSubclasses/releases/latest/download/module.json",
+	"download": "https://github.com/henry-malinowski/UA2025-RealmsSubclasses/releases/latest/download/module.zip"
 }
