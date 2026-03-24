@@ -1,5 +1,7 @@
 ![](https://img.shields.io/badge/Foundry-v13-informational)
 
+More information about the [5eUA for FoundryVTT](https://henry-malinowski.github.io/5eUA-for-FoundryVTT/) can be browsed here.
+
 # UA2025-RealmsSubclasses
 
 A Foundry implementation of the UA2025-RealmsSubclasses document released on D&amp;DBeyond
@@ -23,7 +25,7 @@ A Foundry implementation of the UA2025-RealmsSubclasses document released on D&a
 
 To install and use the UA2025-RealmsSubclasses module for Foundry Virtual Tabletop, simply paste the following URL into the **Install Module** dialog on the Setup menu of the application.
 
-`https://raw.githubusercontent.com/henry-malinowski/UA2025-RealmsSubclasses/master/module.json`
+`https://github.com/henry-malinowski/UA2025-RealmsSubclasses/releases/latest/download/module.json`
 
 If you wish to manually install the module, you must clone or extract it into the `Data/modules/UA2025-RealmsSubclasses` folder. You may do this by cloning the repository or downloading a zip archive from the [Releases Page](https://github.com/henry-malinowski/UA2025-RealmsSubclasses/releases).
 
