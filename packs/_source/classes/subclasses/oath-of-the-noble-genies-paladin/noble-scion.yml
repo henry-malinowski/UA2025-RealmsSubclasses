@@ -1,0 +1,214 @@
+folder: nLnu41XGMlvHUKvb
+name: Noble Scion
+type: feat
+_id: usrsOngNobleScio
+img: icons/commodities/treasure/mask-jeweled-gold.webp
+system:
+  activities:
+    XfILewT6lwTNTx1c:
+      type: utility
+      _id: XfILewT6lwTNTx1c
+      sort: 0
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        concentration: false
+        override: false
+        value: '10'
+      effects:
+        - _id: maF9YJlOIReAgeyy
+          level: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    6nJclcU41XBlajZu:
+      type: utility
+      name: Regain Usage
+      _id: 6nJclcU41XBlajZu
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '-1'
+            target: ''
+            scaling: {}
+          - type: spellSlots
+            value: '1'
+            target: '5'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '1'
+  advancement: []
+  description:
+    value: >-
+      <p>As a &amp;Reference[Bonus Action], you gain the benefits below for 10
+      minutes or until you end them (no action required). Once you use this
+      feature, you can’t use it again until you finish a &amp;Reference[Long
+      Rest]. You can also restore your use of it by expending a level 5 spell
+      slot (no action required).</p><p><em><strong>Flight.</strong></em> You
+      have a Fly Speed of 60 feet and can hover.</p><p><em><strong>Minor
+      Wish.</strong></em> When you or an ally in your Aura of Protection fails a
+      D20 Test, you can take a &amp;Reference[Reaction]{Reaction} to make the
+      D20 Test succeed instead.</p>
+    chat: ''
+  identifier: noble-scion
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 20
+  properties: []
+  requirements: Oath of Noble Genies
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: Noble Scion
+    img: icons/commodities/treasure/mask-jeweled-gold.webp
+    origin: Compendium.UA2025-RealmsSubclasses.classes.Item.usrsOngNobleScio
+    transfer: false
+    _id: maF9YJlOIReAgeyy
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.movement.fly
+        mode: 4
+        value: '60'
+        priority: null
+      - key: system.attributes.movement.hover
+        mode: 5
+        value: 'true'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses:
+            - hovering
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!usrsOngNobleScio.maF9YJlOIReAgeyy'
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774376455722
+  modifiedTime: 1774376455812
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!usrsOngNobleScio'

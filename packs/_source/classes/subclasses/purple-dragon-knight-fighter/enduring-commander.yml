@@ -1,0 +1,61 @@
+folder: vvc40Vrh2pQXTe7b
+name: Enduring Commander
+type: feat
+_id: uarsPdkEnduringC
+img: icons/magic/defensive/barrier-shield-dome-blue-purple.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: Trait
+      _id: PzPO8XTiXseGf30s
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - dr:force
+          - dr:psychic
+        mode: default
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
+  description:
+    value: >-
+      <p>You and your purple dragon have &amp;Reference[Resistance] to
+      &amp;Reference[Force] and &amp;Reference[Psychic] damage.</p>
+    chat: ''
+  identifier: enduring-commander
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 18
+  properties:
+    - trait
+  requirements: Purple Dragon Knight
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774376623718
+  modifiedTime: 1774376623718
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uarsPdkEnduringC'

@@ -1,0 +1,46 @@
+name: PDF
+_id: uarsPdf000000000
+pages:
+  - sort: 100000
+    name: PDF
+    type: pdf
+    _id: qFepASptuDFaxXhx
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: modules/UA2025-RealmsSubclasses/assets/pdfs/UA2025-RealmsSubclasses.pdf
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!journal.pages!uarsPdf000000000.qFepASptuDFaxXhx'
+folder: null
+categories: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774320635553
+  modifiedTime: 1774320635553
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!journal!uarsPdf000000000'

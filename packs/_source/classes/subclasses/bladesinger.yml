@@ -1,0 +1,100 @@
+folder: 7EcXvmuOeu7xMk5x
+name: Bladesinger
+type: subclass
+_id: uarsBladesingerW
+img: modules/UA2025-RealmsSubclasses/assets/icons/subclasses/bladesinger.webp
+system:
+  advancement:
+    - type: ItemGrant
+      title: Subclass Features
+      _id: 6zBNHZjKDnpm0cAs
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsBldTrainingi
+            optional: false
+          - uuid: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsBldBladesong
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: wLVZ0tkb2mjwBYN9
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsBldExtraAtta
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: 5Sa4RdkirOHFuPCE
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsBldSongofDef
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: CovMZFpXRsBWGUKW
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsBldSongofVic
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      hint: ''
+  description:
+    value: >-
+      <blockquote><p>Wield Sword and Sorcery in Elegant
+      Tandem</p></blockquote><p>Bladesingers master a tradition of wizardry that
+      incorporates swordplay and dance. In combat, a Bladesinger uses a series
+      of intricate, elegant maneuvers that fend off harm and allow the
+      Bladesinger to channel magic into devastating attacks and a cunning
+      defense. Many who have observed a Bladesinger at work remember the display
+      as one of the more beautiful experiences in their life, a glorious dance
+      accompanied by a singing blade.</p><p>Bladesinging is strongly associated
+      with the ancient elven societies that first mastered the art and coined
+      the term. Even today, most Bladesingers still hail from old elven realms,
+      such as Cormanthyr, or from non-elven societies that share land and
+      history with elves, such as the Silver Marches. Wherever they hail from,
+      Bladesingers are known for taking their talents all across the Realms in
+      order to help common people and perform heroic deeds. Few communities
+      greet the arrival of a Bladesinger as anything but a good omen.</p>
+    chat: ''
+  identifier: bladesinger
+  source:
+    revision: 1
+    rules: '2024'
+  classIdentifier: wizard
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 137500
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774376135139
+  modifiedTime: 1774376289417
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uarsBladesingerW'

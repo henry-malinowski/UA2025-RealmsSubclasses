@@ -1,0 +1,130 @@
+folder: 7EcXvmuOeu7xMk5x
+name: Spellfire Sorcery
+type: subclass
+_id: uarsSpellfireSor
+img: modules/UA2025-RealmsSubclasses/assets/icons/subclasses/spellfire-sorcery.webp
+system:
+  advancement:
+    - type: ItemGrant
+      title: Subclass Features
+      _id: dkXKT5wiVN5n8sEU
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsSpfBurstSpel
+            optional: false
+          - uuid: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsSpfSpellsSpe
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: f5uhI5qTxQGguD2q
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsSpfAbsordSpe
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      hint: ''
+    - type: ScaleValue
+      title: Bolstering Flames Scaling
+      _id: CZXS4nAzB1JqUtmE
+      configuration:
+        identifier: ''
+        type: string
+        distance:
+          units: ''
+        scale:
+          '14':
+            value: '@classes.sorcerer.levels'
+      value: {}
+      hint: ''
+    - type: ScaleValue
+      title: Radiant Fire Scaling
+      _id: 4r0eWYZ8yS4N742G
+      configuration:
+        identifier: ''
+        type: dice
+        distance:
+          units: ''
+        scale:
+          '3':
+            number: 1
+            faces: 6
+            modifiers: []
+          '14':
+            number: 3
+            faces: 6
+            modifiers: []
+      value: {}
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: 90U3wP2hEfbT6Sn4
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsSpfHonedSpel
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: TJzY3tjdsipdlnSE
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsSpfCrownofSp
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 18
+      hint: ''
+  description:
+    value: >-
+      <blockquote><p>Radiate Raw Magic Potential</p></blockquote><p>Your innate
+      power stems from the source of magic itself: the Weave. This connection
+      manifests as a rare ability known as spellfire, and you surge with radiant
+      bursts of this raw magic. Your talent with spellfire allows you to heal
+      allies, sear enemies, and absorb powerful spells.</p><p>Wielders of
+      spellfire tend to be adventurous souls with penchants for wandering. Many
+      travel between cosmopolitan settlements, such as those along the Sword
+      Coast, and wield their magic in service of the common good. Others
+      prioritize the realization of their own strange powers by roaming equally
+      strange lands, from the magic-blasted wastes of the Anauroch Desert to the
+      god-touched wilds of the Old Empires. Wherever they go in the Realms,
+      spellfire Sorcerers are often courted by factions with interests in the
+      arcane arts, such as the Harpers and the Cult of the Dragon.</p>
+    chat: ''
+  identifier: spellfire-sorcery
+  source:
+    revision: 1
+    rules: '2024'
+  classIdentifier: sorcerer
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 103125
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774376200950
+  modifiedTime: 1774376925801
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uarsSpellfireSor'

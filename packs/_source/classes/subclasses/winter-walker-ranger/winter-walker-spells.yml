@@ -1,0 +1,59 @@
+folder: JSzmclhchQNGeaWQ
+name: Winter Walker Spells
+type: feat
+_id: uarsWiwWinterWal
+img: icons/magic/nature/tree-spirit-black.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>When you reach a Ranger level specified in the Winter Walker Spells
+      table, you thereafter always have the listed spells
+      prepared.</p><table><caption>Winter Walker
+      Spells</caption><thead><tr><td>Ranger
+      Level</td><td>Spell</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplIceKnife00]{Ice
+      Knife}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPasswithou]{Pass
+      Without
+      Trace}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRemoveCurs]{Remove
+      Curse}</td></tr><tr><td>13</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplIceStorm00]{Ice
+      Storm}</td></tr><tr><td>17</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplConeofCold]{Cone
+      of Cold}</td></tr></tbody></table><section class="secret"
+      id="secret-Jsb8LAX0SfsTXroo"><p><strong>Foundry Note</strong></p><p>The
+      spells will be automatically granted as you level up.</p></section>
+    chat: ''
+  identifier: winter-walker-spells
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: Winter Walker
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774376978107
+  modifiedTime: 1774376978107
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uarsWiwWinterWal'

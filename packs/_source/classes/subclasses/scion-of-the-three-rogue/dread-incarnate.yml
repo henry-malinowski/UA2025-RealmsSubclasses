@@ -1,0 +1,101 @@
+folder: hv3MJuWzEJ0XS0cd
+name: Dread Incarnate
+type: feat
+_id: uarsSotDreadInca
+img: icons/magic/unholy/silhouette-robe-evil-glow.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>You gain the following benefits.</p><p><em><strong>Battle
+      Tyrant.</strong></em> You have &amp;Reference[Advantage] on attack rolls
+      against any creature with the &amp;Reference[Frightened apply=false]
+      condition.</p><p><em><strong>Murderous Intent.</strong></em> When you roll
+      for your
+      @UUID[Compendium.dnd-players-handbook.classes.Item.phbrgeSneakAttac]{Sneak
+      Attack} damage, you can treat a roll of a 1 or 2 on the die as a
+      3.</p><section class="secret"
+      id="secret-H2bT2gAAPek8HRLc"><p><strong>Foundry
+      Note</strong></p><p>Murderous Intent is automatically applied to your
+      Sneak Attack ability but not Cunning Strikes. To add Murderous Intent to
+      your Cunning Strikes will need to Modify the Effect of the Cunning Strike
+      &gt; Cunning Sneak Attack activity.</p><ul><li><p><strong>Cunning Strike
+      &gt; Cunning Sneak:</strong> Add <code>min3</code> to the end of the
+      formula.</p></li></ul></section>
+    chat: ''
+  identifier: dread-incarnate
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 17
+  properties:
+    - trait
+  requirements: Scion of the Three
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: Murderous Intent
+    img: icons/magic/unholy/silhouette-robe-evil-glow.webp
+    origin: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsSotDreadInca
+    _id: GK0Svod42ITvw36F
+    type: base
+    system: {}
+    changes:
+      - key: system.scale.rogue.sneak-attack.modifiers
+        mode: 2
+        value: min3
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>When the Scion of the Three rolls a 1 or 2 on a Sneak Attack die it is
+      treated as a 3.</p>
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!uarsSotDreadInca.GK0Svod42ITvw36F'
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774376790608
+  modifiedTime: 1774376790704
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uarsSotDreadInca'

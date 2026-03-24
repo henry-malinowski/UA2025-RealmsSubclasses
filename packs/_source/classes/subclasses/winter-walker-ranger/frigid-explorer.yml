@@ -1,0 +1,125 @@
+folder: JSzmclhchQNGeaWQ
+name: Frigid Explorer
+type: feat
+_id: uarsWiwFrigidExp
+img: icons/skills/ranged/arrows-flying-salvo-blue-light.webp
+system:
+  activities:
+    trXzJVdq9csMBSDz:
+      type: damage
+      name: Polar Strikes Damage
+      _id: trXzJVdq9csMBSDz
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: true
+          bonus: ''
+        parts:
+          - custom:
+              enabled: true
+              formula: '@scale.winter-walker.polar-strikes-damage'
+            number: null
+            denomination: null
+            bonus: ''
+            types:
+              - cold
+            scaling:
+              number: 1
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: Trait
+      _id: 9FrkdIItFocAbw6n
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - dr:cold
+        mode: default
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
+  description:
+    value: >-
+      <p>You gain the following benefits.</p><p><em><strong>Frost
+      Resistance.</strong></em> You have &amp;Reference[Resistance] to
+      &amp;Reference[Cold] damage.</p><p><em><strong>Polar
+      Strikes.</strong></em> When you hit a creature with a weapon, you can deal
+      an extra [[/damage 1d4 type=cold]] damage to the target, which can take
+      this extra damage only once per turn. This extra damage ignores Resistance
+      to Cold damage. When you reach Ranger level 11, this extra damage
+      increases to [[/damage 1d6 type=cold]]{1d6}.</p>
+    chat: ''
+  identifier: frigid-explorer
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties: []
+  requirements: Winter Walker
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774376953321
+  modifiedTime: 1774376953321
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uarsWiwFrigidExp'

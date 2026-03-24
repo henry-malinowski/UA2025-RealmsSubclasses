@@ -1,0 +1,84 @@
+folder: 3obZp66ZsiAxvxaP
+name: 'Dread Allegiance: Bane'
+type: feat
+_id: uarsSotAllegiBan
+img: modules/UA2025-RealmsSubclasses/assets/icons/dread-allegiance-bane.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemGrant
+      _id: dg0MFTvyDqkFVT0w
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplMinorIllus
+        optional: false
+        spell:
+          ability:
+            - int
+          method: ''
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+      value: {}
+      level: 0
+      title: Cantrip
+      hint: ''
+    - type: Trait
+      _id: m5OTrlEOK9XUUbVD
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - dr:psychic
+        mode: default
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
+  description:
+    value: >-
+      <p>You've made a
+      @UUID[Compendium.UA2025-RealmsSubclasses.classes.Item.uarsSotDreadAlle]{dread
+      alliegiance} with Bane, the deity of tyranny. You can cast the
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMinorIllus]{Minor
+      Illusion} cantrip and have Resistence to &amp;Reference[Psychic]
+      damage.</p>
+    chat: ''
+  identifier: dread-allegiance-bane
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: Scion of the Three
+  type:
+    value: class
+    subtype: dreadAllegiance
+effects: []
+sort: 100000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774376856295
+  modifiedTime: 1774376856295
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uarsSotAllegiBan'

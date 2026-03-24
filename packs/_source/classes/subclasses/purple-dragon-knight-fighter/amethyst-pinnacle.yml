@@ -1,0 +1,55 @@
+folder: vvc40Vrh2pQXTe7b
+name: Amethyst Pinnacle
+type: feat
+_id: uarsPdkAmethystP
+img: icons/skills/melee/spear-tips-double-purple.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>You and your purple dragon gain the following
+      benefits.</p><p><em><strong>Superior Mount.</strong></em> The purple
+      dragon grows to Large size, and both its Speed and its Fly Speed increase
+      to 40 feet. Additionally, the dragon no longer falls at the end of a turn
+      if airborne while you’re riding it.</p><p><em><strong>Tandem
+      Attack.</strong></em> When you take the &amp;Reference[Attack] action on
+      your turn, you can forego one of your attacks to command the dragon to
+      make one Rend attack. Alternatively, you can forego two of your attacks to
+      command the dragon to use Gravity Breath.</p>
+    chat: ''
+  identifier: amethyst-pinnacle
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 15
+  properties:
+    - trait
+  requirements: Purple Dragon Knight
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774376607432
+  modifiedTime: 1774376607432
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uarsPdkAmethystP'

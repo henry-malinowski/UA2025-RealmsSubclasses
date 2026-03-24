@@ -1,0 +1,202 @@
+folder: qWQVWHyFc2GUjXBP
+name: Divine Foreknowledge
+type: feat
+_id: uarsKdoDivineFor
+img: icons/magic/perception/third-eye-blue-red.webp
+system:
+  activities:
+    gSYHPrqOS5UxHHHm:
+      type: utility
+      _id: gSYHPrqOS5UxHHHm
+      sort: 0
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    BvPfB93n4p6an4Vd:
+      type: utility
+      name: Regain Usage
+      _id: BvPfB93n4p6an4Vd
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: '9'
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '-1'
+            target: ''
+            scaling:
+              mode: ''
+          - type: spellSlots
+            value: '1'
+            target: '6'
+            scaling:
+              mode: level
+              formula: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '1'
+  advancement: []
+  description:
+    value: >-
+      <p>As a &amp;Reference[Bonus Action], you magically expand your mind to
+      the possibilities of the future. For 1 hour, you have
+      &amp;Reference[Advantage] on D20 Tests. Once you use this feature, you
+      can’t use it again until you finish a Long Rest. You can also restore your
+      use of this feature by expending a level 6+ spell slot (no action
+      required).</p>
+    chat: ''
+  identifier: divine-foreknowledge
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 17
+  properties: []
+  requirements: Knowledge Domain
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: Divine Foreknowledge
+    img: icons/magic/perception/third-eye-blue-red.webp
+    origin: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsKdoDivineFor
+    _id: 0yybKR0HHb1DQ2zp
+    type: base
+    system: {}
+    changes: []
+    disabled: true
+    duration:
+      startTime: null
+      combat: null
+      seconds: 3600
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: <p>Cleric has Advantage on D20 Tests.</p>
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!uarsKdoDivineFor.0yybKR0HHb1DQ2zp'
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774376360108
+  modifiedTime: 1774376360197
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uarsKdoDivineFor'

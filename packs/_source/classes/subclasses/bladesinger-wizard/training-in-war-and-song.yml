@@ -1,0 +1,96 @@
+folder: 4g4A3lM7xsNy6jAr
+name: Training in War and Song
+type: feat
+_id: uarsBldTrainingi
+img: icons/skills/melee/maneuver-sword-katana-yellow.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: Trait
+      _id: P6ID1937Gbq0d3B1
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - skills:acr
+              - skills:ath
+              - skills:prf
+              - skills:per
+        grants: []
+        mode: default
+      level: 3
+      title: ''
+      hint: ''
+      value: {}
+    - type: Trait
+      _id: Aiad94w4HlqsJr6h
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - weapon:mar:battleaxe
+          - weapon:mar:flail
+          - weapon:mar:longsword
+          - weapon:mar:morningstar
+          - weapon:mar:rapier
+          - weapon:mar:scimitar
+          - weapon:mar:shortsword
+          - weapon:mar:trident
+          - weapon:mar:warpick
+          - weapon:mar:warhammer
+          - weapon:mar:whip
+        mode: default
+      level: 3
+      title: ''
+      hint: |-
+        You gain proficiency with all Melee Martial
+        weapons that don’t have the Two-Handed or
+        Heavy property.
+      value: {}
+  description:
+    value: >-
+      <p>You gain proficiency with all Melee Martial weapons that don’t have the
+      Two-Handed or Heavy property. You can use a Melee weapon with which you
+      have proficiency as a Spellcasting Focus for your Wizard spells.</p><p>You
+      also gain proficiency in one of the following skills of your choice:
+      Acrobatics, Athletics, Performance, or Persuasion.</p><section
+      class="secret" id="secret-UVxzjRm6DsatHBWV"><p><strong>Foundry
+      Note</strong></p><p>The proficiencies are granted to you automatically as
+      you level up.</p></section>
+    chat: ''
+  identifier: training-in-war-and-song
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: Bladesinger
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774376289327
+  modifiedTime: 1774376289327
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uarsBldTrainingi'

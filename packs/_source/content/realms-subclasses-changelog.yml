@@ -1,0 +1,94 @@
+name: Realms Subclasses Changelog
+_id: uarsChangelog000
+pages:
+  - sort: 300000
+    name: v2.0.0
+    type: text
+    _id: AmNf7K40yDzH6zu5
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <ul><li><p>Migrated to updated build + distribution
+        system</p></li><li><p>Added stable UUIDs (breaking compatibility with
+        v1.0)</p></li><li><p>Updated compendium art used to match art used in
+        the 5eUA for FoundryVTT homepage</p></li><li><p>Changed
+        @UUID[Compendium.UA2025-RealmsSubclasses.classes.Item.uarsPdkKnightlyE]{Knighly
+        Envoy} to a Cast Activity rather than Item (spell) grant to better
+        reflect the UA contents</p></li><li><p>Macro for correcting Purple
+        Dragon Companion summon has been removed.</p><ul><li><p>Functionality
+        now rolled into module automatically or by fixing the summon
+        activity</p></li></ul></li><li><p>Improved Elemental Shield macro and
+        dialog</p><ul><li><p>New styling to match idiomatic dnd5e2
+        Applications</p></li><li><p>Moved to a single document (should feel
+        _slightly_ snappier)</p></li><li><p>Moved from socketlib to Foundry's
+        basic socket API</p></li></ul></li><li><p>Added auto-opening changelog
+        following an update to the module</p></li></ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: dnd5ebuilder0000
+      modifiedTime: 1774386687969
+    _key: '!journal.pages!uarsChangelog000.AmNf7K40yDzH6zu5'
+  - sort: 200000
+    name: v1.0.0
+    type: text
+    _id: es5ILQB5sv6evT3N
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: <ul><li><p>Initial Release</p></li></ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!journal.pages!uarsChangelog000.es5ILQB5sv6evT3N'
+folder: null
+categories: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: dnd-players-handbook.PlayersHandbookJournalSheet
+    locked: true
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774320612157
+  modifiedTime: 1774320699822
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!journal!uarsChangelog000'

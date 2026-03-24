@@ -1,0 +1,175 @@
+folder: qWQVWHyFc2GUjXBP
+name: Knowledge Domain Spells
+type: feat
+_id: uarsKdoKnowledge
+img: icons/skills/trades/academics-book-study-runes.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemGrant
+      _id: R7rqXCZV7srvdTKg
+      configuration:
+        items:
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplCommand000
+            optional: false
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplComprehend
+            optional: false
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi
+            optional: false
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplDetectThou
+            optional: false
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplIdentify00
+            optional: false
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplMindSpike0
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - wis
+          method: ''
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+      value: {}
+      level: 3
+      title: Cleric Level 3
+      hint: ''
+    - type: ItemGrant
+      title: Cleric Level 5
+      _id: foeaEi05RRa0JmB6
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplDispelMagi
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplNondetecti
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplTongues000
+        optional: false
+        spell:
+          ability:
+            - wis
+          method: ''
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+      value: {}
+      level: 5
+      hint: ''
+    - type: ItemGrant
+      title: Cleric Level 7
+      _id: CEOY9OFeciSPfOB8
+      configuration:
+        items:
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplArcaneEye0
+            optional: false
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplBanishment
+            optional: false
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplConfusion0
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - wis
+          method: ''
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+      value: {}
+      level: 7
+      hint: ''
+    - type: ItemGrant
+      title: Cleric Level 9
+      _id: D1uuOI9G93XtT83i
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplLegendLore
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplScrying000
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplSynapticSt
+        optional: false
+        spell:
+          ability:
+            - wis
+          method: ''
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+      value: {}
+      level: 9
+      hint: ''
+  description:
+    value: >-
+      <p>Your connection to this divine domain ensures you always have certain
+      spells ready. When you reach a Cleric level specified in the Knowledge
+      Domain Spells table, you thereafter always have the listed spells
+      prepared.</p><table><caption>Knowledge Domain
+      Spells</caption><thead><tr><td>Cleric Level</td><td>Prepared
+      Spells</td></tr></thead><tbody><tr><td>3</td><td><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCommand000]{Command},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplComprehend]{Comprehend
+      Languages},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi]{Detect
+      Magic},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectThou]{Detect
+      Thoughts},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplIdentify00]{Identify},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMindSpike0]{Mind
+      Spike}</em></p></td></tr><tr><td>5</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDispelMagi]{Dispel
+      Magic},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplNondetecti]{Nondetection},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplTongues000]{Tongues}</em></td></tr><tr><td>7</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplArcaneEye0]{Arcane
+      Eye},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBanishment]{Banishment},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplConfusion0]{Confusion}</em></td></tr><tr><td>9</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLegendLore]{Legend
+      Lore},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplScrying000]{Scrying},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSynapticSt]{Synaptic
+      Static}</em></td></tr></tbody></table><section class="secret"
+      id="secret-V5dzmU405tjZLpyk"><p><strong>Foundry Note</strong></p><p>These
+      spells are granted automatically as you advance.</p></section>
+    chat: ''
+  identifier: knowledge-domain-spells
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: Knowledge Domain
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774376368611
+  modifiedTime: 1774376368611
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uarsKdoKnowledge'

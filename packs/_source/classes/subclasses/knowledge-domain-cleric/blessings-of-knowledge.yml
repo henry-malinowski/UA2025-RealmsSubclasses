@@ -1,0 +1,80 @@
+folder: qWQVWHyFc2GUjXBP
+name: Blessings of Knowledge
+type: feat
+_id: uarsKdoBlessings
+img: icons/skills/trades/academics-book-study-purple.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: Trait
+      _id: 57j45P8Ik7R8s03w
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - tool:*
+        grants: []
+        mode: default
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
+    - type: Trait
+      _id: kISouQhXuz9I8Nxb
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 2
+            pool:
+              - skills:arc
+              - skills:his
+              - skills:nat
+              - skills:rel
+        grants: []
+        mode: forcedExpertise
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
+  description:
+    value: >-
+      <p>You gain proficiency with one type of Artisan’s Tools of your choice
+      and in two of the following skills of your choice: Arcana, History,
+      Nature, or Religion. You have Expertise in those two skills.</p>
+    chat: ''
+  identifier: blessings-of-knowledge
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: Knowledge Domain
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774376352184
+  modifiedTime: 1774376352184
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uarsKdoBlessings'

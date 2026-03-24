@@ -1,0 +1,58 @@
+folder: vvc40Vrh2pQXTe7b
+name: Dragon Rider
+type: feat
+_id: uarsPdkDragonRid
+img: icons/creatures/reptiles/dragon-winged-blue.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>You and your purple dragon gain the following
+      benefits.</p><p><em><strong>Dragon Mount.</strong></em> The dragon grows
+      to Medium size. You can use the dragon as a mount if you are Medium or
+      smaller, but while you’re riding it, the dragon falls at the end of a turn
+      if it’s airborne and the only thing holding it aloft is
+      its</p><p><em><strong>Fly Speed.</strong></em> It takes you only 5 feet of
+      movement to mount or dismount the dragon. Improved Gravity Breath. The
+      dragon’s Gravity Breath becomes a 30-foot Cone. When a creature fails its
+      saving throw against that Gravity Breath, the creature also takes 2d6
+      Force damage.</p><p><em><strong>Shared Second Wind.</strong></em> When you
+      use your Second Wind to regain Hit Points, the dragon also regains Hit
+      Points equal to [[/heal 1d6+@classes.fighter.level]]{1d6 plus your Fighter
+      level}, and it regains one use of its Gravity Breath.</p>
+    chat: ''
+  identifier: dragon-rider
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 7
+  properties: []
+  requirements: Purple Dragon Knight
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774376615959
+  modifiedTime: 1774376615959
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uarsPdkDragonRid'

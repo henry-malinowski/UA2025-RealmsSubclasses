@@ -1,0 +1,1048 @@
+name: Purple Dragon Companion
+type: npc
+_id: uarsCompMediumPd
+img: >-
+  modules/UA2025-RealmsSubclasses/assets/tokens/portraits/purple-dragon-companion-small.webp
+system:
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  abilities:
+    str:
+      value: 16
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    dex:
+      value: 16
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    con:
+      value: 12
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    int:
+      value: 8
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    wis:
+      value: 13
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    cha:
+      value: 10
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: floor(@prof.flat/2)
+      save: floor(@prof.flat/2)
+      skill: ''
+    spell:
+      dc: ''
+  skills:
+    acr:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ani:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    arc:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ath:
+      ability: str
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    dec:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    his:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ins:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    itm:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    inv:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    med:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    nat:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    prc:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    prf:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    per:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    rel:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    slt:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ste:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    sur:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+  tools: {}
+  spells:
+    spell1:
+      value: 0
+    spell2:
+      value: 0
+    spell3:
+      value: 0
+    spell4:
+      value: 0
+    spell5:
+      value: 0
+    spell6:
+      value: 0
+    spell7:
+      value: 0
+    spell8:
+      value: 0
+    spell9:
+      value: 0
+    pact:
+      value: 0
+  attributes:
+    ac:
+      calc: default
+      flat: null
+    init:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonus: ''
+    movement:
+      fly: '30'
+      swim: '30'
+      walk: '30'
+      units: ft
+      hover: false
+      ignoredDifficultTerrain: []
+      special: ''
+    attunement:
+      max: 3
+    senses:
+      darkvision: 60
+      blindsight: null
+      tremorsense: null
+      truesight: null
+      units: ft
+      special: ''
+    spellcasting: ''
+    exhaustion: 0
+    concentration:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        save: ''
+      limit: 1
+    loyalty: {}
+    hd:
+      spent: 0
+    hp:
+      value: 4
+      max: 4
+      temp: null
+      tempmax: null
+      formula: 4+0d6
+      dt: null
+    death:
+      roll:
+        min: null
+        max: null
+        mode: 0
+      success: 0
+      failure: 0
+      bonuses:
+        save: ''
+    spell:
+      level: 0
+    price:
+      value: null
+      denomination: gp
+  details:
+    biography:
+      value: ''
+      public: ''
+    alignment: Neutral
+    ideal: ''
+    bond: ''
+    flaw: ''
+    race: null
+    type:
+      value: dragon
+      custom: ''
+      subtype: ''
+      swarm: ''
+    habitat:
+      value: []
+      custom: ''
+    cr: null
+    treasure:
+      value: []
+  resources:
+    legact:
+      max: 0
+      spent: 0
+    legres:
+      max: 0
+      spent: 0
+    lair:
+      value: false
+      initiative: null
+      inside: false
+  source:
+    revision: 1
+    rules: '2024'
+  traits:
+    size: med
+    di:
+      value: []
+      custom: ''
+      bypasses: []
+    dr:
+      value: []
+      custom: ''
+      bypasses: []
+    dv:
+      value: []
+      custom: ''
+      bypasses: []
+    dm:
+      amount: {}
+      bypasses: []
+    ci:
+      value: []
+      custom: ''
+    languages:
+      value: []
+      custom: Understands the languages you know
+      communication:
+        telepathy:
+          value: 30
+          units: ft
+    important: false
+prototypeToken:
+  name: Purple Dragon Companion
+  displayName: 30
+  actorLink: false
+  width: 1
+  height: 1
+  texture:
+    src: >-
+      modules/UA2025-RealmsSubclasses/assets/tokens/static/purple-dragon-companion-small.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 2
+    scaleY: 2
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: 1
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: true
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes:
+    - id: basicSight
+      range: 60
+      enabled: true
+  occludable:
+    radius: 0
+  ring:
+    enabled: true
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 2
+      texture: >-
+        modules/UA2025-RealmsSubclasses/assets/tokens/dynamic/purple-dragon-companion-small.webp
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: fly
+  flags: {}
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+items:
+  - name: Amphibious
+    type: feat
+    _id: yWJQ5TVsLy16ANLL
+    img: icons/creatures/amphibians/bullfrog-glass-teal.webp
+    system:
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      advancement: []
+      description:
+        value: <p>The dragon can breathe air and water.</p>
+        chat: ''
+      identifier: amphibious
+      source:
+        revision: 1
+        rules: '2024'
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+        level: null
+      properties:
+        - trait
+      requirements: ''
+      type:
+        value: monster
+        subtype: ''
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      compendiumSource: >-
+        Compendium.UA2025-RealmsSubclasses.actors.Actor.uarsCompSmallPdc.Item.xaiieLaBttJvfhWR
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!actors.items!uarsCompMediumPd.yWJQ5TVsLy16ANLL'
+  - name: Gravity Breath
+    type: feat
+    _id: LvRcuu40tWB7iRMF
+    img: icons/magic/air/wind-vortex-swirl-purple.webp
+    system:
+      activities:
+        uHUYs1B0dUHHw9CB:
+          type: save
+          _id: uHUYs1B0dUHHw9CB
+          sort: 0
+          activation:
+            type: action
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets:
+              - type: itemUses
+                value: '1'
+                target: ''
+                scaling: {}
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            units: any
+            override: false
+            special: ''
+          target:
+            template:
+              contiguous: false
+              units: ft
+              type: cone
+              size: '30'
+              count: ''
+            affects:
+              choice: false
+              type: creature
+              count: ''
+              special: ''
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          damage:
+            onSave: none
+            parts:
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 2
+                denomination: 6
+                bonus: ''
+                types:
+                  - force
+                scaling:
+                  number: 1
+          save:
+            ability:
+              - con
+            dc:
+              calculation: con
+              formula: ''
+          name: ''
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '2'
+      advancement: []
+      description:
+        value: >-
+          <p><em>Constitution Saving Throw:</em> DC 8 plus your Proficiency
+          Bonus plus your Intelligence modifier, each creature in a 15-foot
+          Cone. <em>Failure:</em> The target is either pulled up to 15 feet
+          straight toward the dragon or pushed 15 feet straight away from the
+          dragon (your choice) and takes [[/damage 2d6 force]] damage.</p>
+        chat: ''
+      identifier: gravity-breath
+      source:
+        revision: 1
+        rules: '2024'
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+        level: null
+      properties: []
+      requirements: ''
+      type:
+        value: monster
+        subtype: ''
+    effects: []
+    folder: null
+    sort: 100000
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      compendiumSource: >-
+        Compendium.UA2025-RealmsSubclasses.actors.Actor.uarsCompSmallPdc.Item.P2U6p4qGHhWRDEkO
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: dnd5ebuilder0000
+      modifiedTime: 1774381943892
+    _key: '!actors.items!uarsCompMediumPd.LvRcuu40tWB7iRMF'
+  - name: Shared Second Wind
+    type: feat
+    _id: 1ty7GdqMT1aHGO9g
+    img: icons/magic/life/cross-worn-green.webp
+    system:
+      activities:
+        KzoTz7hbcz4rNNsK:
+          type: heal
+          _id: KzoTz7hbcz4rNNsK
+          sort: 0
+          activation:
+            type: action
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets:
+              - type: itemUses
+                value: '-1'
+                target: LvRcuu40tWB7iRMF
+                scaling: {}
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            units: self
+            override: false
+            special: ''
+          target:
+            template:
+              contiguous: false
+              units: ft
+              type: ''
+            affects:
+              choice: false
+              type: ''
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          healing:
+            types:
+              - healing
+            custom:
+              enabled: true
+              formula: 1d6+@classes.fighter.level
+            scaling:
+              number: 1
+            number: 1
+            denomination: 6
+            bonus: ''
+          name: ''
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      advancement: []
+      description:
+        value: >-
+          <p>When you use your Second Wind to regain Hit Points, the dragon also
+          regains Hit Points equal to 1d6 plus your Fighter level, and it
+          regains one use of its Gravity Breath.</p>
+        chat: ''
+      identifier: shared-second-wind
+      source:
+        revision: 1
+        rules: '2024'
+        book: UA2025-RealmsSubclasses
+        page: ''
+        custom: ''
+        license: ''
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+        level: null
+      properties: []
+      requirements: ''
+      type:
+        value: monster
+        subtype: ''
+    effects: []
+    folder: null
+    sort: 300000
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      compendiumSource: >-
+        Scene.zfoEisdjKiQ9ip21.Token.o9mkwOHJ3ZhOWdtO.Actor.IQGq9OkrT1v4wiYU.Item.DIMB3TiuTeJF2wcr
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: dnd5ebuilder0000
+      modifiedTime: 1774381943892
+    _key: '!actors.items!uarsCompMediumPd.1ty7GdqMT1aHGO9g'
+  - name: Stalwart Bond
+    type: feat
+    _id: lOpSlxXIzJ8hYTWi
+    img: icons/magic/control/debuff-chains-orb-movement-blue.webp
+    system:
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      advancement: []
+      description:
+        value: >-
+          <p>Add half your Proficiency Bonus (round down) to any ability check
+          or saving throw the dragon makes.</p>
+        chat: ''
+      identifier: stalwart-bond
+      source:
+        revision: 1
+        rules: '2024'
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+        level: null
+      properties:
+        - trait
+      requirements: ''
+      type:
+        value: monster
+        subtype: ''
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      compendiumSource: >-
+        Compendium.UA2025-RealmsSubclasses.actors.Actor.uarsCompSmallPdc.Item.BlfzBTQBeI7Jupaq
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!actors.items!uarsCompMediumPd.lOpSlxXIzJ8hYTWi'
+  - name: Rend
+    type: weapon
+    _id: yI1AZrtqjefeOwE3
+    img: icons/skills/melee/blood-slash-foam-red.webp
+    system:
+      activities:
+        16Q3Ti2l6obWVnr5:
+          _id: 16Q3Ti2l6obWVnr5
+          type: attack
+          sort: 0
+          activation:
+            type: action
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            units: ft
+            override: true
+            value: '5'
+            special: ''
+          target:
+            template:
+              contiguous: false
+              units: ft
+              type: ''
+            affects:
+              choice: false
+              type: creatureOrObject
+              count: '1'
+              special: ''
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: ''
+              classification: unarmed
+            ability: none
+            bonus: '3'
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts: []
+          name: ''
+          flags: {}
+          visibility:
+            level:
+              min: null
+              max: null
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+            identifier: ''
+          img: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      description:
+        value: >-
+          <p><em>Melee Attack Roll:</em> +3 plus your Intelligence modifier,
+          reach 5 ft. <em>Hit:</em> 1d6 plus your Intelligence modifier Force
+          damage.</p>
+        chat: ''
+      identifier: rend
+      source:
+        revision: 1
+        rules: '2024'
+      identified: true
+      unidentified:
+        description: ''
+      container: null
+      quantity: 1
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      attunement: ''
+      ammunition: {}
+      armor: {}
+      damage:
+        base:
+          types:
+            - force
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+          number: 1
+          denomination: 6
+          bonus: ''
+        versatile:
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+      properties: []
+      proficient: 0
+      range:
+        reach: 5
+        units: ft
+        value: null
+        long: null
+      type:
+        value: natural
+        baseItem: ''
+      mastery: ''
+      crew:
+        value: []
+      attuned: false
+      equipped: true
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      compendiumSource: >-
+        Compendium.UA2025-RealmsSubclasses.actors.Actor.uarsCompSmallPdc.Item.uehruFtlxsNQclVZ
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      createdTime: 1774381941692
+      modifiedTime: 1774382100818
+      lastModifiedBy: dnd5ebuilder0000
+    _key: '!actors.items!uarsCompMediumPd.yI1AZrtqjefeOwE3'
+effects: []
+folder: 5QMfsuA4QOSuP5We
+sort: 100000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774377118608
+  modifiedTime: 1774377663161
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!actors!uarsCompMediumPd'

@@ -1,0 +1,89 @@
+folder: 7EcXvmuOeu7xMk5x
+name: Knowledge Domain
+type: subclass
+_id: uarsKnowledgeDom
+img: modules/UA2025-RealmsSubclasses/assets/icons/subclasses/knowledge-domain.webp
+system:
+  advancement:
+    - type: ItemGrant
+      title: Subclass Features
+      _id: Tvef1kN4lbkl8bNN
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsKdoDivineFor
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Items
+      _id: 98tvPkIcPZilkK3Q
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsKdoBlessings
+            optional: false
+          - uuid: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsKdoKnowledge
+            optional: false
+          - uuid: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsKdoMindMagic
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: 5STkDN86mOU0hVgO
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsKdoUnfettere
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      hint: ''
+  description:
+    value: >-
+      <blockquote><p>Unearth Secrets and Master the Mind</p></blockquote><p>The
+      Knowledge Domain values learning and understanding above all. Clerics who
+      tap into this domain study esoteric lore, collect old tomes, delve into
+      the secret places of the earth, and examine the process of the mind
+      itself.</p><p>Gods of knowledge vary from masters of arcane magic to
+      patrons of craft and invention. To them, knowledge is more valuable than
+      material wealth, and the desire to learn is an act of worship. Libraries,
+      universities, and other institutions dedicated to education also draw on
+      the power of the Knowledge Domain.</p><p>On Faerûn, Clerics of the
+      Knowledge Domain worship deities of learning and ingenuity like Oghma and
+      Gond. Other powerful deities—such as Asmodeus, Mystra, Savras, and
+      Jergal—also count Clerics of the Knowledge Domain among their devotees, as
+      do less-common divinities like Deneir, the Scribe of Oghma, and Azuth,
+      servant of Mystra.</p>
+    chat: ''
+  identifier: knowledge-domain
+  source:
+    revision: 1
+    rules: '2024'
+  classIdentifier: cleric
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 200000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774376157063
+  modifiedTime: 1774376383745
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uarsKnowledgeDom'

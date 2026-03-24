@@ -1,0 +1,180 @@
+folder: hv3MJuWzEJ0XS0cd
+name: Bloodthirst
+type: feat
+_id: uarsSotBloodthir
+img: icons/magic/death/skull-weapon-staff-glow-pink.webp
+system:
+  activities:
+    CsagrjMiBlUcufUj:
+      type: damage
+      name: Bloodied Sneak Attack
+      _id: CsagrjMiBlUcufUj
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: any
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: true
+              formula: '@scale.rogue.sneak-attack.number'
+            number: null
+            denomination: null
+            bonus: ''
+            types: []
+            scaling:
+              number: 1
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    S69KvWST6lAoXkIX:
+      type: utility
+      name: Use Reaction
+      _id: S69KvWST6lAoXkIX
+      sort: 0
+      activation:
+        type: reaction
+        override: false
+        condition: When an enemy you can see is reduced to 0 Hit Points
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: space
+          count: '30'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: systems/dnd5e/icons/svg/activity/forward.svg
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: max(1,@abilities.int.mod)
+  advancement: []
+  description:
+    value: >-
+      <p>If your
+      @UUID[Compendium.dnd-players-handbook.classes.Item.phbrgeSneakAttac]{Sneak
+      Attack} hits a &amp;Reference[Bloodied] creature, the target takes extra
+      damage of the weapon’s type equal to half your Rogue level (round
+      up).</p><p>In addition, when an enemy you can see is reduced to 0 Hit
+      Points, you can take a &amp;Reference[Reaction] and teleport to an
+      unoccupied space you can see within 30 feet of yourself. You can then make
+      one melee attack. You can use this Reaction a number of times equal to
+      your Intelligence modifier (minimum of once), and you regain all expended
+      uses when you finish a &amp;Reference[Long Rest].</p><section
+      class="secret" id="secret-ZfppnAvj48544sVX"><p><strong>Foundry
+      Note</strong></p><p>This feature includes a Damage Activity that will
+      display your current additional damage against a Bloodied creature. You
+      may also add half your current Rogue level rounded up (currently
+      <strong>[[lookup @scale.rogue.sneak-attack.number]]</strong>) as a
+      situational damage bonus when you use Sneak Attack.</p></section>
+    chat: ''
+  identifier: bloodthirst
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties: []
+  requirements: Scion of the Three
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774376769582
+  modifiedTime: 1774376769582
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uarsSotBloodthir'

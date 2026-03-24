@@ -1,0 +1,334 @@
+folder: 4g4A3lM7xsNy6jAr
+name: Bladesong
+type: feat
+_id: uarsBldBladesong
+img: icons/magic/movement/trail-streak-zigzag-teal.webp
+system:
+  activities:
+    JGljKbJ9ZoAXMLWM:
+      type: utility
+      name: Invoke Bladesong
+      _id: JGljKbJ9ZoAXMLWM
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        concentration: false
+        override: false
+        value: '1'
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    XDbTo59fDBYY0T6J:
+      type: enchant
+      name: Apply Bladework
+      _id: XDbTo59fDBYY0T6J
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: hClHT8ibaIee3m7z
+          level:
+            min: null
+            max: null
+          riders:
+            activity:
+              - zY9wRjjXGhiuJu8g
+            effect: []
+            item: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      enchant:
+        self: false
+      restrictions:
+        allowMagical: true
+        categories: []
+        properties: []
+        type: weapon
+      visibility:
+        identifier: wizard
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      flags: {}
+    zY9wRjjXGhiuJu8g:
+      type: attack
+      name: Intelligence Attack
+      _id: zY9wRjjXGhiuJu8g
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: weapon
+        ability: int
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts: []
+      img: systems/dnd5e/icons/svg/properties/magical.svg
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: max(1,@abilities.int.mod)
+  advancement: []
+  description:
+    value: >-
+      <p>As a Bonus Action, you invoke an elven magic called the Bladesong,
+      provided you aren’t wearing armor or using a Shield.</p><p>The Bladesong
+      lasts for 1 minute and ends early if you have the
+      &amp;Reference[Incapacitated] condition, if you don armor or a Shield, or
+      if you use two hands to make an attack with a weapon. You can dismiss the
+      Bladesong at any time (no action required).</p><p>While the Bladesong is
+      active, you gain the following benefits. You can invoke the Bladesong a
+      number of times equal to your Intelligence modifier (minimum of once), and
+      you regain all expended uses when you finish a Long
+      Rest.</p><p><em><strong>Agility.</strong></em> You gain a bonus to your AC
+      equal to your Intelligence modifier (minimum of +1), and your Speed
+      increases by 10 feet.</p><p><em><strong>Bladework.</strong></em> Whenever
+      you attack with a weapon with which you have proficiency, you can use your
+      Intelligence modifier for the attack and damage rolls instead of using
+      Strength or Dexterity.</p><p><em><strong>Focus.</strong></em> When you
+      make a Constitution saving throw to maintain Concentration, you can add
+      your Intelligence modifier to the total.</p><section class="secret"
+      id="secret-acLD8a5wEP2Lgsb6"><p><strong>Foundry Note</strong></p><p>This
+      feature has an Active Effect to automate Agility and Focus. There is also
+      an Enchantment activity to give a weapon the option to attack with
+      Intelligence instead of the normal attack.</p></section>
+    chat: ''
+  identifier: bladesong
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - mgc
+  requirements: Bladesinger
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: Bladesong
+    img: icons/magic/movement/trail-streak-zigzag-teal.webp
+    origin: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsBldBladesong
+    _id: JqrtaUUaOENnbj5Y
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.ac.bonus
+        mode: 2
+        value: max(1,@abilities.int.mod)
+        priority: null
+      - key: system.attributes.concentration.bonuses.save
+        mode: 2
+        value: '@abilities.int.mod'
+        priority: null
+    disabled: true
+    duration:
+      startTime: null
+      combat: null
+      seconds: 60
+      rounds: 10
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!uarsBldBladesong.JqrtaUUaOENnbj5Y'
+  - type: enchantment
+    name: Bladesong
+    img: icons/magic/movement/trail-streak-zigzag-teal.webp
+    disabled: true
+    _id: hClHT8ibaIee3m7z
+    system: {}
+    changes:
+      - key: name
+        mode: 2
+        value: ', Bladework'
+        priority: null
+      - key: system.properties
+        mode: 2
+        value: foc
+        priority: null
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!uarsBldBladesong.hClHT8ibaIee3m7z'
+sort: 0
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity:
+        - zY9wRjjXGhiuJu8g
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774376245059
+  modifiedTime: 1774376245154
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uarsBldBladesong'

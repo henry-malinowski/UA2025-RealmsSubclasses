@@ -1,0 +1,18 @@
+type: Item
+folder: 7EcXvmuOeu7xMk5x
+name: Spellfire Sorcery (Sorcerer)
+color: null
+sorting: a
+_id: RvXiubJ0Zrw7CEow
+description: ''
+sort: 700000
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.1.8
+  lastModifiedBy: dnd5ebuilder0000
+  modifiedTime: 1774316850219
+_key: '!folders!RvXiubJ0Zrw7CEow'

@@ -1,0 +1,111 @@
+folder: 7EcXvmuOeu7xMk5x
+name: Purple Dragon Knight
+type: subclass
+_id: uarsPurpleDragon
+img: >-
+  modules/UA2025-RealmsSubclasses/assets/icons/subclasses/purple-dragon-knight.webp
+system:
+  advancement:
+    - type: ItemGrant
+      title: Subclass Features
+      _id: a02T4eCAkuQOkd9y
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsPdkKnightlyE
+            optional: false
+          - uuid: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsPdkPurpleDra
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: XDKr49omKnAA9Paj
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsPdkDragonRid
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: UZhkz4S5X92tTGSv
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsPdkRallyingS
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: caoqh7I6YG2LTSXQ
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsPdkAmethystP
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: Hvu0drV8VSdqHdcr
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsPdkEnduringC
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 18
+      hint: ''
+  description:
+    value: >-
+      <blockquote><p>Herald the Majesty of Amethyst
+      Dragons</p></blockquote><p>The Purple Dragon Knights are paragons of valor
+      and leadership who partner with amethyst dragons. Such knights aspire to
+      protect the innocent and rally fellow adventurers to the causes of justice
+      and freedom. Although the Purple Dragons were originally founded in
+      Cormyr, new recruits are enlisted from any realms where chivalry is in
+      abundance, including the Silver Marches, Damara, and
+      Chessenta.</p><p>Characters with this subclass are special among the
+      order. Unlike most Purple Dragons, who partner with amethyst dragons
+      who’ve already reached adulthood, a Purple Dragon Knight character
+      psionically bonds with an amethyst dragon hatchling. This bond irrevocably
+      transforms both dragon and knight, allowing the dragon to grow in strength
+      alongside its partner knight.</p>
+    chat: ''
+  identifier: purple-dragon-knight
+  source:
+    revision: 1
+    rules: '2024'
+  classIdentifier: fighter
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 150000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774376177920
+  modifiedTime: 1774376652058
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uarsPurpleDragon'

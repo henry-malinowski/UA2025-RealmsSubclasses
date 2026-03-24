@@ -1,0 +1,83 @@
+folder: 3obZp66ZsiAxvxaP
+name: 'Dread Allegiance: Myrkul'
+type: feat
+_id: uarsSotAllegiMyr
+img: modules/UA2025-RealmsSubclasses/assets/icons/dread-allegiance-myrkul.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: Trait
+      _id: jMOCgHoxE6OxaUT9
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - dr:necrotic
+        mode: default
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      _id: CZw7TNK0TFqb6aLW
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplChillTouch
+        optional: false
+        spell:
+          ability:
+            - int
+          method: ''
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+      value: {}
+      level: 0
+      title: Cantrip
+      hint: ''
+  description:
+    value: >-
+      <p>You've made a
+      @UUID[Compendium.UA2025-RealmsSubclasses.classes.Item.uarsSotAllegiMyr]{dread
+      alliegiance} to Myrkul, the deity of death. You can cast the
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplChillTouch]{Chill
+      Touch} cantrip and have Resistence to &amp;Reference[Necrotic] damage.</p>
+    chat: ''
+  identifier: dread-allegiance-myrkul
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: Scion of the Three
+  type:
+    value: class
+    subtype: dreadAllegiance
+effects: []
+sort: 150000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774376874194
+  modifiedTime: 1774376874279
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uarsSotAllegiMyr'

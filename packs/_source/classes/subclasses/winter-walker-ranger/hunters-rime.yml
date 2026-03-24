@@ -1,0 +1,109 @@
+folder: JSzmclhchQNGeaWQ
+name: Hunter's Rime
+type: feat
+_id: uarsWiwHuntersRi
+img: icons/magic/air/air-pressure-shield-blue.webp
+system:
+  activities:
+    9jf1xYojolC0xZSG:
+      type: heal
+      name: Temporary Hit Points
+      _id: 9jf1xYojolC0xZSG
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        types:
+          - temphp
+        custom:
+          enabled: true
+          formula: 1d10+@classes.ranger.level
+        scaling:
+          number: 1
+        number: null
+        denomination: null
+        bonus: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Ice rimes you and your prey, protecting you and slowing them. When you
+      cast
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHuntersMar]{Hunter’s
+      Mark}, you gain Temporary Hit Points equal to [[/healing
+      1d10+@classes.ranger.level type=temphp]]{1d10 plus your Ranger
+      level}.</p><p>Additionally, while a creature is marked by your Hunter’s
+      Mark, it can’t take the &amp;Reference[Disengage] action.</p>
+    chat: ''
+  identifier: hunters-rime
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: Winter Walker
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774376970380
+  modifiedTime: 1774376970380
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uarsWiwHuntersRi'

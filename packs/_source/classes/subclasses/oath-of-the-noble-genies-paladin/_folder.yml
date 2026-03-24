@@ -1,0 +1,18 @@
+type: Item
+folder: 7EcXvmuOeu7xMk5x
+name: Oath of the Noble Genies (Paladin)
+color: null
+sorting: a
+_id: nLnu41XGMlvHUKvb
+description: ''
+sort: 400000
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.1.8
+  lastModifiedBy: dnd5ebuilder0000
+  modifiedTime: 1774316799825
+_key: '!folders!nLnu41XGMlvHUKvb'

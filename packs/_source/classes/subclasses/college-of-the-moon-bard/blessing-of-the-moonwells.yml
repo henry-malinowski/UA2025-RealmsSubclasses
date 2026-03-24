@@ -1,0 +1,202 @@
+folder: 7yAprStxTmp322zF
+name: Blessing of the Moonwells
+type: feat
+_id: uarsComBlessingo
+img: icons/magic/nature/symbol-moon-stars-white.webp
+system:
+  activities:
+    7RYY0lmVYBCXa89f:
+      type: cast
+      _id: 7RYY0lmVYBCXa89f
+      sort: 0
+      activation:
+        type: bonus
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: >-
+          When you cast it using this feature, you glow faintly while you
+          maintain Concentration on the spell. While glowing, you shed Dim Light
+          out to 5 feet, and whenever a creature fails its saving throw against
+          the effects of this Moonbeam, another creature of your choice that you
+          can see within 60 feet of you regains [[/heal 2d4]] Hit Points.
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      spell:
+        challenge:
+          override: false
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+        uuid: Compendium.dnd-players-handbook.spells.Item.phbsplMoonbeam00
+        ability: ''
+        level: 2
+      name: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    OOatK6CEf1DMGQ3V:
+      type: utility
+      name: Regain Usage
+      _id: OOatK6CEf1DMGQ3V
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: ''
+        spellSlot: true
+        targets:
+          - type: spellSlots
+            value: '1'
+            target: '3'
+            scaling:
+              mode: level
+              formula: ''
+          - type: itemUses
+            value: '-1'
+            target: ''
+            scaling:
+              mode: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '1'
+  advancement:
+    - type: ItemGrant
+      _id: OxB9vHK5Enq2HCTl
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplMoonbeam00
+        optional: false
+        spell:
+          ability:
+            - cha
+          method: ''
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+      value: {}
+      level: 0
+      title: ''
+      hint: ''
+  description:
+    value: >-
+      <p>You always have the
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMoonbeam00]{Moonbeam}spell
+      prepared.</p><p>As a Bonus Action, you can cast Moonbeam without expending
+      a spell slot. When you cast it using this feature, you glow faintly while
+      you maintain &amp;Reference[Concentration] on the spell. While glowing,
+      you shed &amp;Reference[Dim Light] out to 5 feet, and whenever a creature
+      fails its saving throw against the effects of this Moonbeam, another
+      creature of your choice that you can see within 60 feet of you regains
+      [[/heal 2d4]] Hit Points.</p><p>Once you use this feature, you can’t use
+      it again until you finish a &amp;Reference[Long Rest]. You can also
+      restore your use of it by expending a level 3+ spell slot (no action
+      required).</p>
+    chat: ''
+  identifier: blessing-of-the-moonwells
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 6
+  properties: []
+  requirements: College of the Moon
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774376303245
+  modifiedTime: 1774376303245
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uarsComBlessingo'

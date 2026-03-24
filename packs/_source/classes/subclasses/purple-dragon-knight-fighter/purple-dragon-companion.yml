@@ -1,0 +1,163 @@
+folder: vvc40Vrh2pQXTe7b
+name: Purple Dragon Companion
+type: feat
+_id: uarsPdkPurpleDra
+img: icons/creatures/reptiles/dragon-horned-blue.webp
+system:
+  activities:
+    hTyTOZvS6pQ9WYtm:
+      type: summon
+      _id: hTyTOZvS6pQ9WYtm
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      bonuses:
+        ac: '@abilities.int.mod'
+        hd: '@classes.fighter.levels'
+        hp: '@classes.fighter.levels * 4'
+        attackDamage: '@abilities.int.mod'
+        saveDamage: ''
+        healing: '@classes.fighter.levels'
+      creatureSizes: []
+      creatureTypes: []
+      match:
+        attacks: false
+        proficiency: true
+        saves: true
+        ability: int
+        disposition: false
+      profiles:
+        - count: ''
+          name: ''
+          _id: vbtWvjdjhfIZXocZ
+          uuid: Compendium.UA2025-RealmsSubclasses.actors.Actor.uarsCompSmallPdc
+          level:
+            min: 3
+            max: 6
+        - count: ''
+          name: ''
+          _id: vyquC9BHu9YImAlZ
+          uuid: Compendium.UA2025-RealmsSubclasses.actors.Actor.uarsCompMediumPd
+          level:
+            min: 7
+            max: 14
+        - count: ''
+          name: ''
+          _id: O5j0Ajo7nS1D77zR
+          uuid: Compendium.UA2025-RealmsSubclasses.actors.Actor.uarsCompLargePdc
+          level:
+            min: 15
+            max: 17
+        - count: ''
+          name: ''
+          _id: zNvjBnV2OZapIAFW
+          uuid: Compendium.UA2025-RealmsSubclasses.actors.Actor.uarsCompEnduring
+          level:
+            min: 18
+            max: null
+      summon:
+        prompt: true
+        mode: ''
+      name: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: fighter
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      flags: {}
+      img: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>You are bonded with an amethyst dragon hatchling that serves as your
+      purple dragon companion and uses the Purple Dragon Companion stat block.
+      The purple dragon is &amp;Reference[Friendly] to you and your allies and
+      obeys your commands.</p><p><em><strong>The Dragon in Combat.</strong></em>
+      In combat, the dragon acts during your turn. It can move and use its
+      &amp;Reference[Reaction]{Reaction} on its own, but the only action it
+      takes is the &amp;Reference[Dodge] action unless you take a
+      &amp;Reference[Bonus Action] to command it to take an action in its stat
+      block or some other action. If you have the &amp;Reference[Incapacitated
+      apply=false] condition, the dragon acts on its own and isn’t limited to
+      the Dodge action.</p><p><em><strong>Resurrecting the Dragon.</strong></em>
+      If the dragon companion has died within the last hour, you can take a
+      &amp;Reference[Magic] action to touch the dragon and expend a use of your
+      @UUID[Compendium.dnd-players-handbook.classes.Item.phbftrSecondWind]{Second
+      Wind}. The dragon returns to life after 1 minute with all its Hit Points
+      restored.</p><p>Otherwise, you can perform a 1-hour ceremony to resurrect
+      the dragon; this ceremony can be performed as part of a
+      &amp;Reference[Short Rest]{Short} or &amp;Reference[Long Rest].</p>
+    chat: ''
+  identifier: purple-dragon-companion
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties: []
+  requirements: Purple Dragon Knight
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774376642909
+  modifiedTime: 1774380001728
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uarsPdkPurpleDra'

@@ -1,0 +1,488 @@
+folder: nLnu41XGMlvHUKvb
+name: Elemental Smite
+type: feat
+img: icons/skills/melee/strike-sword-dagger-runes-yellow.webp
+system:
+  activities:
+    VsyDAwBw0gFO5j7R:
+      type: utility
+      _id: VsyDAwBw0gFO5j7R
+      sort: 0
+      activation:
+        type: ''
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.dnd-players-handbook.classes.Item.phbpdnChannelDiv
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: 545b6kz8m77jsU6y
+          level: {}
+      range:
+        override: false
+        units: any
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: Dao's Crush
+      img: modules/UA2025-RealmsSubclasses/assets/icons/daos-crush.svg
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    3SMtrQ6yhVyORk2N:
+      type: utility
+      _id: 3SMtrQ6yhVyORk2N
+      sort: 0
+      activation:
+        type: ''
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.dnd-players-handbook.classes.Item.phbpdnChannelDiv
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: XWoQrZFHJjtX3rLL
+          level: {}
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '30'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: space
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: Djinni's Escape
+      img: modules/UA2025-RealmsSubclasses/assets/icons/djinnis-escape.svg
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    mFpc4N1fnMZsJSPU:
+      type: damage
+      _id: mFpc4N1fnMZsJSPU
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.dnd-players-handbook.classes.Item.phbpdnChannelDiv
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: true
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 2
+            denomination: 4
+            bonus: ''
+            types:
+              - fire
+            scaling:
+              number: 1
+      name: Efreeti's Fury
+      img: modules/UA2025-RealmsSubclasses/assets/icons/efreetis-fury.svg
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    jopYKtkvJFXRYUam:
+      type: save
+      _id: jopYKtkvJFXRYUam
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.dnd-players-handbook.classes.Item.phbpdnChannelDiv
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: IPyWpQApGZAtrdoN
+          onSave: false
+          level: {}
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: radius
+          size: '10'
+          count: ''
+        affects:
+          choice: true
+          type: enemy
+          count: ''
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: none
+      save:
+        ability:
+          - str
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: Marid's Surge
+      img: modules/UA2025-RealmsSubclasses/assets/icons/marids-surge.svg
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Immediately after you cast Divine Smite, you can expend one use of your
+      Channel Divinity and invoke one of the following
+      effects.</p><p><em><strong>Dao’s Crush.</strong></em> The target has the
+      &amp;Reference[Grappled] condition (escape DC equal to your spell save
+      DC). While Grappled, the target has the &amp;Reference[Restrained]
+      condition.</p><p><em><strong>Djinni’s Escape.</strong></em> You teleport
+      to an unoccupied space you can see within 30 feet of yourself and take on
+      a mist-like form, which lasts until the end of your next turn. While in
+      this form, you have Immunity to the &amp;Reference[Grappled apply=false],
+      &amp;Reference[Prone apply=false], and &amp;Reference[Restrained
+      apply=false] conditions.</p><p><em><strong>Efreeti’s Fury.</strong></em>
+      The target takes an extra [[/damage type=fire 2d4]]
+      damage.</p><p><em><strong>Marid’s Surge.</strong></em> The target and each
+      creature of your choice in a 10-foot Emanation originating from you makes
+      a Strength saving throw against your spell save DC. On a failed save, the
+      creature is pushed 15 feet straight away from you and has the
+      &amp;Reference[Prone] condition.</p>
+    chat: ''
+  identifier: elemental-smite
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  advancement: []
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: 3
+    repeatable: false
+    items: []
+  properties: []
+  requirements: Oath of Noble Genies
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: 'Elemental Smite: Dao''s Crush'
+    img: modules/UA2025-RealmsSubclasses/assets/icons/daos-crush.svg
+    origin: >-
+      Compendium.world.subclasses-forgotten-realms-subclasses.Item.5NvQB3kOYSXU23ul
+    transfer: false
+    _id: 545b6kz8m77jsU6y
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses:
+      - grappled
+      - restrained
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      ActiveAuras:
+        isAura: false
+        aura: All
+        nameOverride: ''
+        radius: ''
+        alignment: ''
+        type: ''
+        customCheck: ''
+        ignoreSelf: false
+        height: false
+        hidden: false
+        displayTemp: false
+        hostile: false
+        onlyOnce: false
+        wallsBlock: system
+        statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!usrsOngSmiteElem.545b6kz8m77jsU6y'
+  - name: 'Elemental Smite: Djinni''s Escape'
+    img: modules/UA2025-RealmsSubclasses/assets/icons/djinnis-escape.svg
+    origin: >-
+      Compendium.world.subclasses-forgotten-realms-subclasses.Item.5NvQB3kOYSXU23ul
+    transfer: false
+    _id: XWoQrZFHJjtX3rLL
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.ci.value
+        mode: 2
+        value: grappled
+        priority: null
+      - key: system.traits.ci.value
+        mode: 2
+        value: prone
+        priority: null
+      - key: system.traits.ci.value
+        mode: 2
+        value: restrained
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      ActiveAuras:
+        isAura: false
+        aura: All
+        nameOverride: ''
+        radius: ''
+        alignment: ''
+        type: ''
+        customCheck: ''
+        ignoreSelf: false
+        height: false
+        hidden: false
+        displayTemp: false
+        hostile: false
+        onlyOnce: false
+        wallsBlock: system
+        statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!usrsOngSmiteElem.XWoQrZFHJjtX3rLL'
+  - name: 'Elemental Smite: Marid''s Surge'
+    img: modules/UA2025-RealmsSubclasses/assets/icons/marids-surge.svg
+    origin: >-
+      Compendium.world.subclasses-forgotten-realms-subclasses.Item.5NvQB3kOYSXU23ul
+    transfer: false
+    _id: IPyWpQApGZAtrdoN
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses:
+            - prone
+      ActiveAuras:
+        isAura: false
+        aura: All
+        nameOverride: ''
+        radius: ''
+        alignment: ''
+        type: ''
+        customCheck: ''
+        ignoreSelf: false
+        height: false
+        hidden: false
+        displayTemp: false
+        hostile: false
+        onlyOnce: false
+        wallsBlock: system
+        statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!usrsOngSmiteElem.IPyWpQApGZAtrdoN'
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774376429183
+  modifiedTime: 1774376429183
+  lastModifiedBy: dnd5ebuilder0000
+ownership:
+  default: 0
+_id: usrsOngSmiteElem
+sort: 25000
+_key: '!items!usrsOngSmiteElem'

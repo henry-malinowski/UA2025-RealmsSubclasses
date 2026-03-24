@@ -1,0 +1,109 @@
+folder: nLnu41XGMlvHUKvb
+name: Genie's Splendor
+type: feat
+img: icons/skills/social/intimidation-impressing.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>When you aren’t wearing Medium or Heavy armor, you gain a bonus to your
+      AC equal to your Charisma modifier (minimum of +1).</p><p>You also gain
+      proficiency in one of the following skills of your choice: Acrobatics,
+      Intimidation, Performance, or Persuasion.</p>
+    chat: ''
+  identifier: genies-splendor
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  advancement: []
+  crewed: false
+  enchant: {}
+  prerequisites:
+    repeatable: false
+    level: 3
+    items: []
+  properties:
+    - trait
+  requirements: Oath of Noble Genies
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: Genie's Splendor
+    img: icons/skills/social/intimidation-impressing.webp
+    origin: >-
+      Compendium.world.subclasses-forgotten-realms-subclasses.Item.U4OmJ3cmvNG7ChAW
+    _id: I6z78VoLnALZHALf
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.ac.bonus
+        mode: 2
+        value: max(1,@abilities.cha.mod)
+        priority: null
+    disabled: true
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      ActiveAuras:
+        isAura: false
+        aura: All
+        nameOverride: ''
+        radius: ''
+        alignment: ''
+        type: ''
+        customCheck: ''
+        ignoreSelf: false
+        height: false
+        hidden: false
+        displayTemp: false
+        hostile: false
+        onlyOnce: false
+        wallsBlock: system
+        statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!usrsOngGeniesSpl.I6z78VoLnALZHALf'
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774376447572
+  modifiedTime: 1774376447572
+  lastModifiedBy: dnd5ebuilder0000
+ownership:
+  default: 0
+_id: usrsOngGeniesSpl
+sort: 12500
+_key: '!items!usrsOngGeniesSpl'

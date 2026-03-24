@@ -1,0 +1,47 @@
+name: Switch Aura of Elemental Shielding
+type: script
+_id: uXe640FVktBXh7gf
+author: doVSAOLAqYqg0m8u
+img: icons/magic/defensive/shield-barrier-flaming-diamond-purple-orange.webp
+scope: global
+command: |-
+  const token = canvas.tokens.controlled[0];
+  if (!token) {
+    ui.notifications.warn("You must select a token.");
+    return;
+  }
+
+  const actor = token.actor;
+  if (!actor) {
+    ui.notifications.warn("No actor found for selected token.");
+    return;
+  }
+
+  const AURA_PREFIX = "Aura of Elemental Shielding";
+
+  const auraEffects = [...actor.items]
+    .flatMap(item => item.effects.contents)
+    .filter(effect => effect.name?.startsWith(AURA_PREFIX));
+
+  if (auraEffects.length === 0) {
+    ui.notifications.info(`No "${AURA_PREFIX}" effects found.`);
+    return;
+  }
+
+  // This class is defined in the world script
+  new AuraSelectorApp(actor, auraEffects).render({ force: true });
+folder: null
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.1.8
+  createdTime: 1758199222613
+  modifiedTime: 1758224086378
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!macros!uXe640FVktBXh7gf'

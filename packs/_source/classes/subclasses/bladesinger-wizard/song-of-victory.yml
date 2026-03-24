@@ -1,0 +1,49 @@
+folder: 4g4A3lM7xsNy6jAr
+name: Song of Victory
+type: feat
+_id: uarsBldSongofVic
+img: icons/weapons/swords/sword-runed-glowing.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>After you cast a spell that has a casting time of an action, you can
+      make one attack with a weapon as a &amp;Reference[Bonus Action]{Bonus
+      Action}.</p>
+    chat: ''
+  identifier: song-of-victory
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 14
+  properties:
+    - trait
+  requirements: Bladesinger
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774376280593
+  modifiedTime: 1774376280593
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uarsBldSongofVic'

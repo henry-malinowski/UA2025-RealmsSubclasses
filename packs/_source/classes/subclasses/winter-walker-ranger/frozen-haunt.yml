@@ -1,0 +1,295 @@
+folder: JSzmclhchQNGeaWQ
+name: Frozen Haunt
+type: feat
+_id: uarsWiwFrozenHau
+img: icons/magic/control/silhouette-hold-change-blue.webp
+system:
+  activities:
+    n9KoHcC1Bz9uTSgd:
+      type: utility
+      name: ''
+      _id: n9KoHcC1Bz9uTSgd
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    QTUm0Ho7UcRqPw0T:
+      type: utility
+      name: Restore Use with Spell slot
+      _id: QTUm0Ho7UcRqPw0T
+      sort: 200000
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: ''
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '-1'
+            target: ''
+            scaling:
+              mode: ''
+          - type: spellSlots
+            value: '1'
+            target: '4'
+            scaling:
+              mode: level
+              formula: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    WUpbch1DMvKvbGTV:
+      type: damage
+      name: Frozen Soul Damage
+      _id: WUpbch1DMvKvbGTV
+      sort: 100000
+      activation:
+        type: turnStart
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: radius
+          size: '15'
+          count: ''
+        affects:
+          choice: true
+          type: creature
+          count: ''
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 2
+            denomination: 4
+            bonus: ''
+            types:
+              - cold
+            scaling:
+              number: 1
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '1'
+  advancement: []
+  description:
+    value: >-
+      <p>When you cast
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHuntersMar]{Hunter’s
+      Mark}, you can adopt a ghostly, snowy form. This form lasts until the
+      spell ends, and while you are in this form, you gain the following
+      benefits. Once you use this feature, you can’t use it again until you
+      finish a &amp;Reference[Long Rest] unless you expend a level 4+ spell slot
+      (no action required).</p><p><em><strong>Frozen Soul.</strong></em> You
+      have Immunity to &amp;Reference[Cold] damage. When you first adopt this
+      form and at the start of each of your subsequent turns, each creature of
+      your choice in a 15-foot Emanation originating from you takes [[/damage
+      2d4 Cold]] damage.</p><p><em><strong>Partially Incorporeal.</strong></em>
+      You have Immunity to the &amp;Reference[Grappled apply=false],
+      &amp;Reference[Prone apply=false], and &amp;Reference[Restrained
+      apply=false] conditions. You can move through creatures and objects as if
+      they were &amp;Reference[Difficult Terrain], but you take [[/damage 1d10
+      Force]] damage if you end your turn inside a creature or an object. If the
+      form ends while you are inside a creature or an object, you are shunted to
+      the nearest unoccupied space.</p>
+    chat: ''
+  identifier: frozen-mark
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 15
+  properties: []
+  requirements: Winter Walker
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: Frozen Haunt
+    img: icons/magic/control/silhouette-hold-change-blue.webp
+    origin: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsWiwFrozenHau
+    _id: UJDff6WjO9oKS50q
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.ci.value
+        mode: 2
+        value: grappled
+        priority: null
+      - key: system.traits.ci.value
+        mode: 2
+        value: prone
+        priority: null
+      - key: system.traits.ci.value
+        mode: 2
+        value: restrained
+        priority: null
+      - key: system.traits.di.value
+        mode: 2
+        value: cold
+        priority: null
+    disabled: true
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!uarsWiwFrozenHau.UJDff6WjO9oKS50q'
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774376960758
+  modifiedTime: 1774376960851
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uarsWiwFrozenHau'

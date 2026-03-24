@@ -1,0 +1,102 @@
+folder: 7EcXvmuOeu7xMk5x
+name: Oath of the Noble Genies
+type: subclass
+_id: uarsNobleGeniesO
+img: >-
+  modules/UA2025-RealmsSubclasses/assets/icons/subclasses/oath-of-noble-genies.webp
+system:
+  advancement:
+    - type: ItemGrant
+      title: Subclass Features
+      _id: 0PZO6Hxx3BHdTOjB
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-RealmsSubclasses.classes.Item.usrsOngSmiteElem
+            optional: false
+          - uuid: Compendium.UA2025-RealmsSubclasses.classes.Item.usrsOngGeniesSpl
+            optional: false
+          - uuid: Compendium.UA2025-RealmsSubclasses.classes.Item.usrsOngGenieSpel
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: MXqCj5DZDj62xIMB
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-RealmsSubclasses.classes.Item.usrsOngAuraofEle
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: c734tJicD74uGeBi
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-RealmsSubclasses.classes.Item.usrsOngRebukeEle
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: UHFGQIlsrHLyN6QS
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-RealmsSubclasses.classes.Item.usrsOngNobleScio
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 20
+      hint: ''
+  description:
+    value: >-
+      <blockquote><p>Brandish the Elemental Splendor of
+      Genies</p></blockquote><p>Paladins sworn to the Oath of the Noble Genies
+      revere the forces of the Elemental Planes.</p><p>Through taking this oath,
+      Paladins draw power from the four different types of genies—dao, masters
+      of earth; djinn, masters of air; efreet, masters of fire; and marids,
+      masters of water—to create splendid and destructive displays of elemental
+      might.</p><p>On Faerûn, many Paladins who swear this oath hail from
+      Calimshan, a land rife with genie-kind. Despite their strong local ties,
+      these Calishite Paladins often undertake quests that take them all over
+      the Realms and across the multiverse—including, naturally, the Elemental
+      Planes.</p><p>These paladins share the following
+      tenets:</p><ul><li><p>Beget creation with destruction.</p></li><li><p>Lead
+      with splendor and grace.</p></li><li><p>Respect the elements, and fear
+      their wrath.</p></li></ul>
+    chat: ''
+  identifier: oath-of-the-noble-genies
+  source:
+    revision: 1
+    rules: '2024'
+  classIdentifier: paladin
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 125000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774376168803
+  modifiedTime: 1774376455812
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uarsNobleGeniesO'

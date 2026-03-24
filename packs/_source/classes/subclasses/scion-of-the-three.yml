@@ -1,0 +1,100 @@
+folder: 7EcXvmuOeu7xMk5x
+name: Scion of the Three
+type: subclass
+_id: uarsScionoftheTh
+img: >-
+  modules/UA2025-RealmsSubclasses/assets/icons/subclasses/scion-of-the-three.webp
+system:
+  advancement:
+    - type: ItemGrant
+      title: Subclass Features
+      _id: ZjjDz9BDTVpYkOQA
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsSotBloodthir
+            optional: false
+          - uuid: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsSotDreadAlle
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: 8qhCX1A8ewykdOSl
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsSotStrikeFea
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 9
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: O6aCLmNp4CnILU9l
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsSotAuraofMal
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 13
+      hint: ''
+    - type: ItemGrant
+      title: Dread Incarnate
+      _id: 5TI6aWFhUVv6D4G1
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsSotDreadInca
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      hint: ''
+  description:
+    value: >-
+      <blockquote><p>Become a Gruesome Agent of Malice</p></blockquote><p>A
+      Scion of the Three draws power from a group of malevolent gods known as
+      the Dead Three: Bane, deity of tyranny; Bhaal, deity of violence and
+      murder; and Myrkul, deity of death. While some Rogues of this subclass
+      pledge themselves ardently to those three macabre gods, others find
+      themselves thrust on this path by a curse. Either way, a scion’s power
+      manifests as various occult gifts, as well as an uncanny talent for
+      striking and terrifying foes.</p><p>Scions of the Three are most common in
+      Baldur’s Gate, where the Dead Three have long competed for influence over
+      mortal hearts. Underground cults to Bane, Bhaal, and Myrkul often count
+      Scions of the Three among their most useful agents. Outside Baldur’s Gate,
+      secular thieves’ guilds such as the Shadow Thieves of Amn or Xanathar’s
+      guild in Waterdeep might cautiously call on a Scion of the Three to
+      undertake an especially violent contract.</p>
+    chat: ''
+  identifier: scion-of-the-three
+  source:
+    revision: 1
+    rules: '2024'
+  classIdentifier: rogue
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 106250
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774376191143
+  modifiedTime: 1774376798260
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uarsScionoftheTh'

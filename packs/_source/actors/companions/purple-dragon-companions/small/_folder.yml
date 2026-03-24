@@ -1,0 +1,17 @@
+type: Actor
+folder: Bp8QzxoPZasCp2Sr
+name: Small
+color: null
+sorting: a
+_id: KbvNGCKn3UA15loC
+description: ''
+sort: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  lastModifiedBy: null
+_key: '!folders!KbvNGCKn3UA15loC'

@@ -1,0 +1,221 @@
+folder: 7EcXvmuOeu7xMk5x
+name: Winter Walker
+type: subclass
+_id: uarsWinterWalker
+img: modules/UA2025-RealmsSubclasses/assets/icons/subclasses/winter-walker.webp
+system:
+  advancement:
+    - type: ScaleValue
+      title: Polar Strikes Damage
+      _id: q5ypBhg2UolQLrwA
+      configuration:
+        identifier: ''
+        type: dice
+        distance:
+          units: ''
+        scale:
+          '3':
+            number: 1
+            faces: 4
+            modifiers: []
+          '11':
+            number: 1
+            faces: 6
+            modifiers: []
+      value: {}
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: 4b0VwMScpr4hz8Qm
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsWiwFrigidExp
+            optional: false
+          - uuid: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsWiwHuntersRi
+            optional: false
+          - uuid: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsWiwWinterWal
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      hint: ''
+    - type: ItemGrant
+      title: Winter Walker Spells
+      _id: QNjyrgMUPIaxCvff
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplIceKnife00
+        optional: false
+        spell:
+          ability:
+            - wis
+          method: ''
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+      value: {}
+      level: 3
+      hint: ''
+    - type: ItemGrant
+      title: Winter Walker Spells
+      _id: IGd3gFiuZJSSnWpV
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplPasswithou
+        optional: false
+        spell:
+          ability:
+            - wis
+          method: ''
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+      value: {}
+      level: 5
+      hint: ''
+    - type: ItemGrant
+      title: Winter Walker Spells
+      _id: mgdj4yan2qiQuFI5
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplRemoveCurs
+        optional: false
+        spell:
+          ability:
+            - wis
+          method: ''
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+      value: {}
+      level: 9
+      hint: ''
+    - type: ItemGrant
+      title: Winter Walker Spells
+      _id: uiqfif3emCo4HZLk
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplIceStorm00
+        optional: false
+        spell:
+          ability:
+            - wis
+          method: ''
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+      value: {}
+      level: 13
+      hint: ''
+    - type: ItemGrant
+      title: Winter Walker Spells
+      _id: dDhajawagybKvOc8
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplConeofCold
+        optional: false
+        spell:
+          ability:
+            - wis
+          method: ''
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+      value: {}
+      level: 17
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: hhpgV701lALfZp1J
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsWiwFortifyin
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: SFC4N3lIB55weMkC
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsWiwChillingR
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 11
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: nRiBu8p8UBU5T5W3
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsWiwFrozenHau
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      hint: ''
+  description:
+    value: >-
+      <blockquote><p>Withstand the Horrors of Frigid
+      Wastelands</p></blockquote><p>Winter Walkers hone their craft in the bleak
+      and frozen wilds of places like Icewind Dale. Rimed with ice, these
+      ruthless Rangers hunt the monsters that haunt arctic wastelands,
+      eventually becoming frigid terrors themselves.</p><p>More so than any
+      other Rangers of Icewind Dale, Winter Walkers are known to be well versed
+      in the paranormal phenomena specific to the realm, including the latent
+      magic of fallen Netherese cities, endemic monsters like yetis and crag
+      cats, and the rising threat of Underdark invaders. In exchange for their
+      cold pragmatism, terrifying magic, and mastery of the region, these Winter
+      Walkers are regarded with equal parts respect and fear.</p><p>Ten-Towns
+      citizens say that it is Winter Walkers’ frequent exposure to malignant
+      entities that gives them their fearsome powers. Many Reghed nomads, on the
+      other hand, believe that nature spirits bestow Winter Walkers with a
+      unique curse.</p>
+    chat: ''
+  identifier: winter-walker
+  source:
+    revision: 1
+    rules: '2024'
+  classIdentifier: ranger
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 112500
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774376208940
+  modifiedTime: 1774376978199
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uarsWinterWalker'

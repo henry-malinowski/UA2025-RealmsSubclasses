@@ -1,0 +1,19 @@
+type: Actor
+folder: null
+name: Companions
+color: null
+sorting: a
+_id: k0CKoNkjD2OWvFyS
+description: ''
+sort: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774315753486
+  modifiedTime: 1774315753486
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!folders!k0CKoNkjD2OWvFyS'

@@ -1,0 +1,54 @@
+folder: RvXiubJ0Zrw7CEow
+name: Honed Spellfire
+type: feat
+_id: uarsSpfHonedSpel
+img: icons/magic/fire/blast-jet-stream-embers-red.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Your
+      @UUID[Compendium.UA2025-RealmsSubclasses.classes.Item.uarsSpfBurstSpel]{Spellfire
+      Burst} improves. You add your Sorcerer level to the Temporary Hit Points
+      gained from Bolstering Flames, and the 1d6 of Radiant Fire increases to
+      3d6.</p><section class="secret"
+      id="secret-lpEc94FkS76WwgW9"><p><strong>Foundry Note</strong></p><p>Your
+      Spellfire Burst activities automatically scale as you gain this feature
+      and additional Sorcerer levels.</p></section>
+    chat: ''
+  identifier: honed-spellfire
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 14
+  properties:
+    - trait
+  requirements: Spellfire Sorcery
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774376906196
+  modifiedTime: 1774376915929
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uarsSpfHonedSpel'

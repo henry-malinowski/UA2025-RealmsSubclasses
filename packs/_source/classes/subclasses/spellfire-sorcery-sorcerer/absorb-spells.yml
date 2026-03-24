@@ -1,0 +1,125 @@
+folder: RvXiubJ0Zrw7CEow
+name: Absorb Spells
+type: feat
+_id: uarsSpfAbsordSpe
+img: icons/magic/fire/flame-burning-hand-white.webp
+system:
+  activities:
+    gKnHRPSAfsp3PiEF:
+      type: utility
+      name: Roll to Regain Sorcery Points
+      _id: gKnHRPSAfsp3PiEF
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: When a creature fails the saving throw against a Counterspell you cast
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '-1d4'
+            target: Compendium.dnd-players-handbook.classes.Item.phbscrFontOfMagi
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemGrant
+      _id: 5KbU995w9N9zrXRB
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplCounterspe
+        optional: false
+        spell:
+          ability:
+            - cha
+          method: ''
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+      value: {}
+      level: 0
+      title: Always Prepared
+      hint: ''
+  description:
+    value: >-
+      <p>You always have
+      <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCounterspe]{Counterspell}</em>
+      prepared.</p><p>Additionally, whenever a target fails the saving throw
+      against a Counterspell you cast, you regain [[/r 1d4]] Sorcery Points.</p>
+    chat: ''
+  identifier: absorb-spells
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 6
+  properties:
+    - trait
+  requirements: Spellfire Sorcery
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774376890137
+  modifiedTime: 1774376890137
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uarsSpfAbsordSpe'

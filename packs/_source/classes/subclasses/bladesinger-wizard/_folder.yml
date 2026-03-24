@@ -1,0 +1,18 @@
+type: Item
+folder: 7EcXvmuOeu7xMk5x
+name: Bladesinger (Wizard)
+color: null
+sorting: a
+_id: 4g4A3lM7xsNy6jAr
+description: ''
+sort: 800000
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.1.8
+  lastModifiedBy: dnd5ebuilder0000
+  modifiedTime: 1774316866612
+_key: '!folders!4g4A3lM7xsNy6jAr'

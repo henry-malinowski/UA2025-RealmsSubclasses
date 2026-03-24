@@ -1,0 +1,82 @@
+folder: hv3MJuWzEJ0XS0cd
+name: Dread Allegiance
+type: feat
+_id: uarsSotDreadAlle
+img: icons/magic/death/skull-horned-goat-pentagram-red.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemChoice
+      title: Choose Dread Allegiance
+      _id: qj1I2jQZxUbagJtu
+      configuration:
+        allowDrops: false
+        choices:
+          '3':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsSotAllegiBan
+          - uuid: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsSotAllegiBha
+          - uuid: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsSotAllegiMyr
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      hint: This allegiance may be change when you complete a Long Rest.
+  description:
+    value: >-
+      <p>Choose one of the Dead Three: Bane, Bhaal, or Myrkul. You gain
+      Resistance to one type of damage and the ability to cast a cantrip, as
+      detailed in the table below; Intelligence is your spellcasting ability for
+      this cantrip. When you finish a &amp;Reference[Long Rest], you can change
+      your choice.</p><table><thead><tr><td>God</td><td>Damage
+      Resistence</td><td>Cantrip</td></tr></thead><tbody><tr><td>@UUID[Compendium.UA2025-RealmsSubclasses.classes.Item.uarsSotAllegiBan]{Bane}</td><td>&amp;Reference[Psychic]</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMinorIllus]{Minor
+      Illusion}</td></tr><tr><td>@UUID[Compendium.UA2025-RealmsSubclasses.classes.Item.uarsSotAllegiBha]{Bhaal}</td><td>&amp;Reference[Poison]</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBladeWard0]{Blade
+      Ward}</td></tr><tr><td>@UUID[Compendium.UA2025-RealmsSubclasses.classes.Item.uarsSotAllegiMyr]{Myrkul}</td><td>&amp;Reference[Necrotic]</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplChillTouch]{Chill
+      Touch}</td></tr></tbody></table><section class="secret"
+      id="secret-ardF1FDjkZt2cEDY"><p><strong>Foundry Note</strong></p><p>This
+      alliegence may be changed when you complete a Long Rest. To change your
+      allegiance, click the kebab icon on the right side of the character sheet
+      and click "Edit". Switch to the Advancement tab. Click the gear icon in
+      the level 3 section. This will allow you to select a different allegience
+      and gain its features.</p></section>
+    chat: ''
+  identifier: dread-allegiance
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: Scion of the Three
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774376777203
+  modifiedTime: 1774376874279
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uarsSotDreadAlle'

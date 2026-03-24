@@ -1,0 +1,185 @@
+folder: RvXiubJ0Zrw7CEow
+name: Spellfire Burst
+type: feat
+_id: uarsSpfBurstSpel
+img: icons/magic/light/beam-red-orange.webp
+system:
+  activities:
+    uZtK35ReCycAX1n9:
+      type: heal
+      name: Bolstering Flames
+      _id: uZtK35ReCycAX1n9
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: ft
+        override: false
+        special: ''
+        value: '30'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        types:
+          - temphp
+        custom:
+          enabled: true
+          formula: >-
+            1d4+@abilities.cha.mod+@scale.spellfire-sorcery.bolstering-flames-scaling
+        scaling:
+          number: 1
+        number: null
+        denomination: null
+        bonus: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    miCkkr1czDw1Sqai:
+      type: save
+      name: Radiant Fire
+      _id: miCkkr1czDw1Sqai
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: ft
+        override: false
+        special: ''
+        value: '30'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        onSave: none
+        parts:
+          - custom:
+              enabled: true
+              formula: '@scale.spellfire-sorcery.radiant-fire-scaling'
+            number: 1
+            denomination: 6
+            bonus: ''
+            types:
+              - fire
+              - radiant
+            scaling:
+              number: 1
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: cha
+          formula: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>When you spend at least 1
+      @UUID[Compendium.dnd-players-handbook.classes.Item.phbscrFontOfMagi]{Sorcery
+      Point} as part of the &amp;Reference[Magic] action or a
+      &amp;Reference[Bonus Action] on your turn, you can unleash one of the
+      following magical effects of your choice. You can do so only once per
+      turn.</p><p><em><strong>Bolstering Flames.</strong></em> You or one
+      creature you can see within 30 feet of yourself gains Temporary Hit Points
+      equal to [[/heal 1d4+@abilities.cha.mod]]{1d4 plus your Charisma
+      modifier}.</p><p><em><strong>Radiant Fire.</strong></em> One creature you
+      can see within 30 feet of yourself must succeed on a Dexterity saving
+      throw against your spell save DC or take 1d6 Fire or Radiant damage (your
+      choice).</p>
+    chat: ''
+  identifier: spellfire-burst
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties: []
+  requirements: Spellfire Sorcery
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774376915840
+  modifiedTime: 1774376915840
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uarsSpfBurstSpel'

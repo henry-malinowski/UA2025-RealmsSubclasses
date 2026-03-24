@@ -1,0 +1,374 @@
+folder: nLnu41XGMlvHUKvb
+name: Aura of Elemental Shielding
+type: feat
+img: icons/magic/defensive/shield-barrier-flaming-diamond-purple-orange.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Choose one of the following damage types: Acid, Cold, Fire, Lightning,
+      or Thunder damage. You and your allies have Resistance to that damage type
+      while in your Aura of Protection.</p><p>At the start of each of your
+      turns, you can change the damage type affected by this feature to one of
+      the other listed options (no action required).</p>
+    chat: ''
+  identifier: aura-of-elemental-shielding
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  advancement: []
+  cover: null
+  crewed: false
+  enchant:
+    max: ''
+    period: ''
+  prerequisites:
+    level: 7
+    repeatable: false
+    items: []
+  properties: []
+  requirements: Oath of Noble Genies
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: 'Aura of Elemental Shielding: Acid'
+    img: icons/magic/defensive/shield-barrier-flaming-pentagon-green.webp
+    origin: >-
+      Compendium.world.subclasses-forgotten-realms-subclasses.Item.f1xXhffMVgTB5MxA
+    _id: MzBrq4eTqu5YdaPa
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: acid
+        priority: null
+    disabled: true
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      ActiveAuras:
+        isAura: true
+        aura: Allies
+        nameOverride: ''
+        radius: '10'
+        alignment: ''
+        type: ''
+        customCheck: ''
+        ignoreSelf: true
+        height: false
+        hidden: false
+        displayTemp: false
+        hostile: false
+        onlyOnce: false
+        wallsBlock: system
+        statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!usrsOngAuraofEle.MzBrq4eTqu5YdaPa'
+  - name: 'Aura of Elemental Shielding: Cold'
+    img: icons/magic/air/air-pressure-shield-blue.webp
+    origin: >-
+      Compendium.world.subclasses-forgotten-realms-subclasses.Item.f1xXhffMVgTB5MxA
+    _id: PfKiTb04UYH6RoJr
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: cold
+        priority: null
+    disabled: true
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      ActiveAuras:
+        isAura: true
+        aura: Allies
+        nameOverride: ''
+        radius: '10'
+        alignment: ''
+        type: ''
+        customCheck: ''
+        ignoreSelf: true
+        height: false
+        hidden: false
+        displayTemp: false
+        hostile: false
+        onlyOnce: false
+        wallsBlock: system
+        statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!usrsOngAuraofEle.PfKiTb04UYH6RoJr'
+  - name: 'Aura of Elemental Shielding: Fire'
+    img: icons/magic/defensive/shield-barrier-flaming-diamond-red.webp
+    origin: >-
+      Compendium.world.subclasses-forgotten-realms-subclasses.Item.f1xXhffMVgTB5MxA
+    _id: XgeKiD6vgc5c2DjN
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 5
+        value: fire
+        priority: null
+    disabled: true
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      ActiveAuras:
+        isAura: true
+        aura: Allies
+        nameOverride: ''
+        radius: '10'
+        alignment: ''
+        type: ''
+        customCheck: ''
+        ignoreSelf: true
+        height: false
+        hidden: false
+        displayTemp: false
+        hostile: false
+        onlyOnce: false
+        wallsBlock: system
+        statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!usrsOngAuraofEle.XgeKiD6vgc5c2DjN'
+  - name: 'Aura of Elemental Shielding: Lightning'
+    img: icons/magic/defensive/shield-barrier-flaming-pentagon-blue.webp
+    origin: >-
+      Compendium.world.subclasses-forgotten-realms-subclasses.Item.f1xXhffMVgTB5MxA
+    _id: FK0HO1u29r8uRzvV
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: lightning
+        priority: null
+    disabled: true
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      ActiveAuras:
+        isAura: true
+        aura: Allies
+        nameOverride: ''
+        radius: '10'
+        alignment: ''
+        type: ''
+        customCheck: ''
+        ignoreSelf: true
+        height: false
+        hidden: false
+        displayTemp: false
+        hostile: false
+        onlyOnce: false
+        wallsBlock: system
+        statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!usrsOngAuraofEle.FK0HO1u29r8uRzvV'
+  - name: 'Aura of Elemental Shielding: Thunder'
+    img: icons/magic/defensive/shield-barrier-flaming-pentagon-teal.webp
+    origin: >-
+      Compendium.world.subclasses-forgotten-realms-subclasses.Item.f1xXhffMVgTB5MxA
+    _id: PizfB60eo2qYhjF8
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: thunder
+        priority: null
+    disabled: true
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      ActiveAuras:
+        isAura: true
+        aura: Allies
+        nameOverride: ''
+        radius: '10'
+        alignment: ''
+        type: ''
+        customCheck: ''
+        ignoreSelf: true
+        height: false
+        hidden: false
+        displayTemp: false
+        hostile: false
+        onlyOnce: false
+        wallsBlock: system
+        statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!usrsOngAuraofEle.PizfB60eo2qYhjF8'
+flags:
+  grid-aware-auras:
+    auras:
+      - _v: 1
+        name: Paladin Aura
+        enabled: true
+        radius: '2'
+        lineType: 1
+        lineWidth: 3
+        lineColor: '#4b3687'
+        lineOpacity: 0.8
+        lineDashSize: 15
+        lineGapSize: 10
+        fillType: 0
+        fillColor: '#FF0000'
+        fillOpacity: 0.1
+        fillTexture: ''
+        fillTextureOffset:
+          x: 0
+          'y': 0
+        fillTextureScale:
+          x: 100
+          'y': 100
+        ownerVisibility:
+          default: true
+          hovered: true
+          controlled: true
+          dragging: true
+          targeted: true
+          turn: true
+        nonOwnerVisibility:
+          default: true
+          hovered: true
+          controlled: true
+          dragging: true
+          targeted: true
+          turn: true
+        effects: []
+        macros: []
+        terrainHeightTools:
+          rulerOnDrag: NONE
+          targetTokens: ''
+        id: 5jYKmbnGXljjrghV
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774376410188
+  modifiedTime: 1774376410188
+  lastModifiedBy: dnd5ebuilder0000
+ownership:
+  default: 0
+_id: usrsOngAuraofEle
+sort: 100000
+_key: '!items!usrsOngAuraofEle'

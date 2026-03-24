@@ -1,0 +1,157 @@
+folder: JSzmclhchQNGeaWQ
+name: Fortifying Soul
+type: feat
+_id: uarsWiwFortifyin
+img: icons/magic/water/heart-ice-freeze.webp
+system:
+  activities:
+    ddJTqyGVchtpWBoa:
+      type: heal
+      name: Apply Fortifying Soul
+      _id: ddJTqyGVchtpWBoa
+      sort: 0
+      activation:
+        type: shortRest
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: b9e7VVGn8zPLSNEz
+          level: {}
+      range:
+        units: any
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: max(1,@abilities.wis.mod)
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        types:
+          - healing
+        custom:
+          enabled: true
+          formula: 1d10+@classes.ranger.level
+        scaling:
+          number: 1
+        number: null
+        denomination: null
+        bonus: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '1'
+  advancement: []
+  description:
+    value: >-
+      <p>Your experience surviving harrowing environments allows you to bolster
+      your allies in addition to yourself. When you finish a
+      &amp;Reference[Short Rest], you can choose a number of creatures you can
+      see equal to your Wisdom modifier (minimum of one). A chosen creature
+      regains Hit Points equal to [[/heal 1d10+@classes.ranger.level
+      type=temphp]]{1d10 plus your Ranger level} and has
+      &amp;Reference[Advantage] on saving throws to avoid or end the
+      &amp;Reference[Frightened] condition for 1 hour.</p><p>Once you use this
+      feature, you can’t use it again until you finish a &amp;Reference[Long
+      Rest].</p>
+    chat: ''
+  identifier: fortifying-soul
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 7
+  properties: []
+  requirements: Winter Walker
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: Fortifying Soul
+    img: icons/magic/defensive/shield-barrier-flaming-diamond-blue-yellow.webp
+    origin: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsWiwFortifyin
+    transfer: false
+    _id: b9e7VVGn8zPLSNEz
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: 600
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>This Creature has Advantage of saving throws to avoid or end the
+      Frightened condition for 1 hour.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!uarsWiwFortifyin.b9e7VVGn8zPLSNEz'
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774376944927
+  modifiedTime: 1774376945015
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uarsWiwFortifyin'

@@ -1,0 +1,237 @@
+folder: 7yAprStxTmp322zF
+name: Moonshae Folktales
+type: feat
+_id: uarsComMoonshaeF
+img: icons/magic/nature/moon-crescent.webp
+system:
+  activities:
+    YwHwPPldafMp88u9:
+      type: heal
+      name: Tale of Life
+      _id: YwHwPPldafMp88u9
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.dnd-players-handbook.classes.Item.phbbrdBardicInsp
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: any
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: ''
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        types:
+          - healing
+        custom:
+          enabled: true
+          formula: '@scale.bard.inspiration.die'
+        scaling:
+          number: 1
+        number: null
+        denomination: null
+        bonus: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    cauWG1URbRbHrOfN:
+      type: check
+      name: Tale of Gloam
+      _id: cauWG1URbRbHrOfN
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      check:
+        associated:
+          - ste
+        dc:
+          calculation: ''
+          formula: '15'
+        ability: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    UFgjLkNzehKbZ1q4:
+      type: utility
+      name: Tale of Mirth
+      _id: UFgjLkNzehKbZ1q4
+      sort: 0
+      activation:
+        type: reaction
+        override: false
+        condition: >-
+          When an enemy you can see within 60 feet of yourself succeeds on a
+          saving throw
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.dnd-players-handbook.classes.Item.phbbrdBardicInsp
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: any
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: enemy
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: Saving throw penalty
+        formula: '@scale.bard.inspiration.die'
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>As a &amp;Reference[Magic] action, you can invoke the power of a
+      folktale, imbuing yourself with primal magic until you use this feature
+      again. When you use this feature, choose which of the following folktales
+      you invoke; your choice gives you certain benefits while this magic is
+      active.</p><p><em><strong>Tale of Life.</strong></em> You invoke a tale of
+      vitality and thriving earth. When you restore &amp;Reference[Hit Points]
+      to a creature with a spell, you can expend a
+      @UUID[Compendium.dnd-players-handbook.classes.Item.phbbrdBardicInsp]{Bardic
+      Inspiration} die and increase the amount of Hit Points restored by a
+      number equal to a roll of the Bardic Inspiration die. You can do this only
+      once per turn.</p><p><em><strong>Tale of Gloam.</strong></em> You invoke a
+      tale of mystery and secrets. When you use a Bonus Action to give a
+      creature a Bardic Inspiration die, you can take the
+      &amp;Reference[Disengage] or &amp;Reference[Hide] action as part of that
+      Bonus Action.</p><p><em><strong>Tale of Mirth.</strong></em> You invoke a
+      tale of merriment and fey guile. When an enemy you can see within 60 feet
+      of yourself succeeds on a saving throw, you can take a
+      &amp;Reference[Reaction]{Reaction} to expend a Bardic Inspiration die. The
+      creature then must roll the Bardic Inspiration die and subtract the number
+      rolled from the save’s total, possibly causing the save to fail.</p>
+    chat: ''
+  identifier: moonshae-folktales
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties: []
+  requirements: College of the Moon
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774376319482
+  modifiedTime: 1774376319482
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uarsComMoonshaeF'

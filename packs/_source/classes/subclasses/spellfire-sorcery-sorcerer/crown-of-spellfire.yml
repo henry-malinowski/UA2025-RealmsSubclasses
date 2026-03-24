@@ -1,0 +1,362 @@
+folder: RvXiubJ0Zrw7CEow
+name: Crown of Spellfire
+type: feat
+_id: uarsSpfCrownofSp
+img: icons/magic/light/explosion-beam-impact-silhouette.webp
+system:
+  activities:
+    AolezMc9dFDqDmuJ:
+      type: heal
+      name: Burning Life Force
+      _id: AolezMc9dFDqDmuJ
+      sort: 100000
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: max(1, @abilities.cha.mod)
+        spellSlot: true
+        targets:
+          - type: hitDice
+            value: '1'
+            target: largest
+            scaling:
+              mode: amount
+              formula: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        types: []
+        custom:
+          enabled: true
+        scaling:
+          number: 1
+          mode: ''
+        number: null
+        denomination: null
+        bonus: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    oTesisagJogLlGrF:
+      type: utility
+      name: Regain Usage
+      _id: oTesisagJogLlGrF
+      sort: 300000
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '7'
+            target: Compendium.dnd-players-handbook.classes.Item.phbscrFontOfMagi
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    1wZjEuk0McNYEz2e:
+      type: utility
+      name: Consume Use
+      _id: 1wZjEuk0McNYEz2e
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        concentration: false
+        override: false
+        value: '1'
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '1'
+  advancement: []
+  description:
+    value: >-
+      <p>As a &amp;Reference[Bonus Action], you gain the following benefits for
+      1 minute. Once you use this Bonus Action, you can’t use it again until you
+      finish a Long Rest unless you spend 7
+      @UUID[Compendium.dnd-players-handbook.classes.Item.phbscrFontOfMagi]{Sorcery
+      Points} (no action required) to restore your use of
+      it.</p><p><em><strong>Burning Life Force.</strong></em> Once per turn when
+      you are hit by an attack roll, you can expend a number of Hit Dice, up to
+      a maximum equal to your Charisma modifier (minimum of one). Roll the
+      expended dice and reduce the amount of damage from that attack equal to
+      the total rolled plus your Sorcerer
+      level.</p><p><em><strong>Flight.</strong></em> You gain a Fly Speed of 60
+      feet and can hover.</p><p><em><strong>Spell Avoidance.</strong></em> When
+      you’re subjected to a spell or magical effect that allows you to make a
+      saving throw to take only half damage, you instead take no damage if you
+      succeed on the saving throw and only half damage if you fail. You can’t
+      use this benefit if you have the &amp;Reference[Incapacitated apply=false]
+      condition.</p><section class="secret"
+      id="secret-w6YzppJoEvcDvt8w"><p><strong>Foundry Note</strong></p><p>This
+      feature comes with 3 active effects that start disabled. When after using
+      this feature, enable the appropriate active effect for the duration and
+      disable at the duration's conclusion.</p><p>Buring Life Force has an
+      associated healing activity for reducing the damage taking. If the healing
+      granted is greater than the damage that would be taken, apply neither
+      healing nor damage.</p></section>
+    chat: ''
+  identifier: crown-of-spellfire
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 18
+  properties: []
+  requirements: Spellfire Sorcery
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: 'Crown of Spellfire: Burning Life Force'
+    img: icons/magic/light/explosion-beam-impact-silhouette.webp
+    origin: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsSpfCrownofSp
+    _id: 6R3BCPVwbce4smpd
+    type: base
+    system: {}
+    changes: []
+    disabled: true
+    duration:
+      startTime: null
+      combat: null
+      seconds: 60
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Once per turn when the Spellfire Sorcerer is hit by an attack roll,
+      they can expend a number of Hit Dice, up to a maximum equal to their
+      Charisma modifier (minimum of one). The Sorcerer rolls the expended dice
+      and reduces the amount of damage from that attack equal to the total
+      rolled plus their Sorcerer level.</p>
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!uarsSpfCrownofSp.6R3BCPVwbce4smpd'
+  - name: 'Crown of Spellfire: Flight'
+    img: icons/magic/light/explosion-beam-impact-silhouette.webp
+    origin: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsSpfCrownofSp
+    _id: eGvu6uitWMWQm9vJ
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.movement.fly
+        mode: 4
+        value: '60'
+        priority: null
+    disabled: true
+    duration:
+      startTime: null
+      combat: null
+      seconds: 60
+      rounds: 10
+      turns: null
+      startRound: null
+      startTurn: null
+    description: <p>The Spellfire Sorcerer gains a Fly Speed of 60 feet and can hover.</p>
+    tint: '#ffffff'
+    transfer: true
+    statuses:
+      - flying
+      - hovering
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!uarsSpfCrownofSp.eGvu6uitWMWQm9vJ'
+  - name: 'Crown of Spellfire: Avoidance'
+    img: icons/magic/light/explosion-beam-impact-silhouette.webp
+    origin: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsSpfCrownofSp
+    _id: BZ8VyGFv6rbeZ2PM
+    type: base
+    system: {}
+    changes: []
+    disabled: true
+    duration:
+      startTime: null
+      combat: null
+      seconds: 60
+      rounds: 10
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>When the Sorcerer is subjected to a spell or magical effect that allows
+      them to make a saving throw to take only half damage, they instead take no
+      damage if they succeed on the saving throw and only half damage if they
+      fail.</p><p>The Sorcerer doesn't gain this benefit when they have the
+      Incapacitated condition.</p>
+    tint: '#ffffff'
+    transfer: true
+    statuses:
+      - transformed
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!uarsSpfCrownofSp.BZ8VyGFv6rbeZ2PM'
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774376897283
+  modifiedTime: 1774376897372
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uarsSpfCrownofSp'

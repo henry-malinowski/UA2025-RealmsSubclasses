@@ -1,0 +1,18 @@
+type: Item
+folder: 7EcXvmuOeu7xMk5x
+name: Scion of the Three (Rogue)
+color: null
+sorting: a
+_id: hv3MJuWzEJ0XS0cd
+description: ''
+sort: 600000
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.1.8
+  lastModifiedBy: dnd5ebuilder0000
+  modifiedTime: 1774316833132
+_key: '!folders!hv3MJuWzEJ0XS0cd'

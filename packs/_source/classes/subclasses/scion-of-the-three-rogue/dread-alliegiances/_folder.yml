@@ -1,0 +1,17 @@
+type: Item
+folder: hv3MJuWzEJ0XS0cd
+name: Dread Alliegiances
+color: null
+sorting: a
+_id: 3obZp66ZsiAxvxaP
+description: ''
+sort: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  lastModifiedBy: null
+_key: '!folders!3obZp66ZsiAxvxaP'

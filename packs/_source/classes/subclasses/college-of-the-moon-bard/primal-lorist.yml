@@ -1,0 +1,124 @@
+folder: 7yAprStxTmp322zF
+name: Primal Lorist
+type: feat
+_id: uarsComPrimalLor
+img: icons/magic/nature/plant-glowing-white-purple.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: Trait
+      _id: ozKjVyw41bV8m5lN
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - languages:exotic:druidic
+        mode: default
+      level: 0
+      title: Druidic language
+      hint: ''
+      value: {}
+    - type: ItemChoice
+      _id: hCPdGngobg9mAeZJ
+      configuration:
+        allowDrops: true
+        choices:
+          '0':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplDruidcraft
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplElementali
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplGuidance00
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplMending000
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplMessage000
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplPoisonSpra
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplProduceFla
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplResistance
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplShillelagh
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplSparetheDy
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplStarryWisp
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplThornWhip0
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplThundercla
+        restriction:
+          list:
+            - class:druid
+          level: '0'
+        spell:
+          ability:
+            - cha
+          method: ''
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+        type: spell
+      value:
+        added: {}
+        replaced: {}
+      title: Druidic Cantrip
+      hint: ''
+    - type: Trait
+      title: Druidic Skill
+      _id: CY4PmcvZ04jQi4a0
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - skills:ani
+              - skills:ins
+              - skills:med
+              - skills:nat
+              - skills:prc
+              - skills:sur
+        grants: []
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+  description:
+    value: >-
+      <p>You learn Druidic and one cantrip from the
+      @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.LhvuDQEyrCdg5EfU]{Druid
+      spell list}. It counts as a Bard spell for you but doesn’t count against
+      the number of cantrips you know.</p><p>Additionally, choose one of the
+      following skills: Animal Handling, Insight, Medicine, Nature, Perception,
+      or Survival. You have proficiency in that skill.</p>
+    chat: ''
+  identifier: primal-lorist
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: College of the Moon
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774376331120
+  modifiedTime: 1774376331120
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uarsComPrimalLor'

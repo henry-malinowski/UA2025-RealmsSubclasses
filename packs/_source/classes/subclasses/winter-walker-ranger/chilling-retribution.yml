@@ -1,0 +1,176 @@
+folder: JSzmclhchQNGeaWQ
+name: Chilling Retribution
+type: feat
+_id: uarsWiwChillingR
+img: icons/magic/control/debuff-energy-hold-teal-blue.webp
+system:
+  activities:
+    SFjLnNGPGhh8haLX:
+      type: save
+      _id: SFjLnNGPGhh8haLX
+      sort: 0
+      activation:
+        type: reaction
+        override: false
+        condition: When a creature hits you with an attack roll
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: 5wo5RYsDf6PfTUuh
+          level: {}
+          onSave: false
+      range:
+        units: any
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        onSave: none
+        parts: []
+      save:
+        ability:
+          - wis
+        dc:
+          calculation: wis
+          formula: ''
+      name: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: max(1,@abilities.wis.mod)
+  advancement: []
+  description:
+    value: >-
+      <p>When a creature hits you with an attack roll, you can take a
+      &amp;Reference[Reaction] to force the creature to make a [[/save
+      ability=wis dc=@abilities.wis.dc]]{Wisdom saving throw} against your spell
+      save DC. On a failed save, the target has the &amp;Reference[Frightened]
+      condition until the end of your next turn. While Frightened, a target’s
+      &amp;Reference[Speed] is reduced to 0 feet.</p><p>You can use this
+      Reaction a number of times equal to your Wisdom modifier (minimum of
+      once), and you regain all expended uses when you finish a
+      &amp;Reference[Long Rest].</p>
+    chat: ''
+  identifier: chilling-retribution
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 11
+  properties: []
+  requirements: Winter Walker
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: Chilling Retribution
+    img: icons/magic/control/debuff-energy-hold-teal-blue.webp
+    origin: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsWiwChillingR
+    transfer: false
+    _id: 5wo5RYsDf6PfTUuh
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.movement.burrow
+        mode: 5
+        value: '0'
+        priority: null
+      - key: system.attributes.movement.climb
+        mode: 5
+        value: '0'
+        priority: null
+      - key: system.attributes.movement.fly
+        mode: 5
+        value: '0'
+        priority: null
+      - key: system.attributes.movement.swim
+        mode: 5
+        value: '0'
+        priority: null
+      - key: system.attributes.movement.walk
+        mode: 5
+        value: '0'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>This creature is &amp;Reference[Frightend] by the Winter Walker. While
+      Frightened, it's speed is 0 feet.</p>
+    tint: '#ffffff'
+    statuses:
+      - frightened
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!uarsWiwChillingR.5wo5RYsDf6PfTUuh'
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774376937619
+  modifiedTime: 1774376937719
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uarsWiwChillingR'

@@ -1,0 +1,94 @@
+folder: qWQVWHyFc2GUjXBP
+name: Unfettered Mind
+type: feat
+_id: uarsKdoUnfettere
+img: icons/skills/trades/academics-astronomy-navigation-purple.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>You gain telepathy out to 60 feet. When you use this telepathy, you can
+      simultaneously contact a number of creatures equal to your Wisdom modifier
+      (minimum of one) (currently [[lookup
+      @abilities.wis.mod]]).</p><p>Additionally, if your total for an
+      Intelligence check is lower than your Wisdom score, you can use that score
+      in place of the total.</p>
+    chat: ''
+  identifier: unfettered-mind
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 6
+  properties:
+    - trait
+  requirements: Knowledge Domain
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: Unfettered Mind
+    img: systems/dnd5e/icons/svg/items/feature.svg
+    origin: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsKdoUnfettere
+    _id: 4kk47I3bc9oxxmIF
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.languages.communication.telepathy.value
+        mode: 5
+        value: '60'
+        priority: null
+      - key: system.traits.languages.communication.telepathy.units
+        mode: 5
+        value: ft
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!uarsKdoUnfettere.4kk47I3bc9oxxmIF'
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774376383658
+  modifiedTime: 1774376383745
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uarsKdoUnfettere'

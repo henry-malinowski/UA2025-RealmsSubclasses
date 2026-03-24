@@ -1,0 +1,180 @@
+folder: nLnu41XGMlvHUKvb
+name: Genie Spells
+type: feat
+_id: usrsOngGenieSpel
+img: icons/magic/earth/explosion-lava-stone-orange.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemGrant
+      title: Paladin Level 3
+      _id: bNFYjFQuMer49ZQm
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplChromaticO
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplElementali
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplThunderous
+        optional: false
+        spell:
+          ability:
+            - cha
+          method: ''
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+      value: {}
+      level: 3
+      hint: ''
+    - type: ItemGrant
+      title: Paladin Level 5
+      _id: ngGpCdjDs19bQJRN
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplMirrorImag
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbPhantasmalFor
+        optional: false
+        spell:
+          ability:
+            - cha
+          method: ''
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+      value: {}
+      level: 5
+      hint: ''
+    - type: ItemGrant
+      title: Paladin Level 9
+      _id: 3zGn16BUrZjaJ2VJ
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplFly0000000
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplGaseousFor
+        optional: false
+        spell:
+          ability:
+            - cha
+          method: ''
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+      value: {}
+      level: 9
+      hint: ''
+    - type: ItemGrant
+      title: Paladin Level 13
+      _id: aMSeSW8Fms63RJPT
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplConjureMin
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplSummonElem
+        optional: false
+        spell:
+          ability:
+            - cha
+          method: ''
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+      value: {}
+      level: 13
+      hint: ''
+    - type: ItemGrant
+      title: Paladin Level 17
+      _id: MJWBB0fUd1vaPXgc
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplBanishingS
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplContactOth
+        optional: false
+        spell:
+          ability:
+            - cha
+          method: ''
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+      value: {}
+      level: 17
+      hint: ''
+  description:
+    value: >-
+      <p>The magic of your oath ensures you always have certain spells ready;
+      when you reach a Paladin level specified in the Genie Spells table, you
+      thereafter always have the listed spells
+      prepared.</p><table><caption>Genie Spells</caption><thead><tr><td>Paladin
+      Level</td><td>Spells</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplChromaticO]{Chromatic
+      Orb},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplElementali]{Elementalism},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplThunderous]{Thunderous
+      Smite}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMirrorImag]{Mirror
+      Image},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbPhantasmalFor]{Phantasmal
+      Force}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFly0000000]{Fly},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGaseousFor]{Gaseous
+      Form}</td></tr><tr><td>13</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplConjureMin]{Conjure
+      Minor Elementals},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonElem]{Summon
+      Elemental}</td></tr><tr><td>17</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBanishingS]{Banishing
+      Smite},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplContactOth]{Contact
+      Other Plane}</td></tr></tbody></table><section class="secret"
+      id="secret-BJb1nvUMxSS77zuz"><p><strong>Foundry Note</strong></p><p>The
+      spells will be automatically granted as you level up.</p></section>
+    chat: ''
+  identifier: genie-spells
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: Oath of Noble Genies
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774376439360
+  modifiedTime: 1774376439360
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!usrsOngGenieSpel'

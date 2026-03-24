@@ -1,0 +1,427 @@
+name: Subclasses
+_id: uarsSubclasses00
+pages:
+  - sort: 100000
+    name: College of the Moon (Bard)
+    type: subclass
+    _id: OGg3eAW6ujJPIfmY
+    system:
+      item: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsComCollegeof
+      description:
+        value: >-
+          <blockquote><p>Inspire Allies with Primal Tales</p></blockquote><p>The
+          College of the Moon traces its origins to the ancient druidic circles
+          of the Moonshae Isles, who entrusted the first Bards of this tradition
+          with chronicling the stories of the islands and their people. Bards of
+          this college draw from the isles’ Fey magic and the primal power of
+          the moonwells to bolster their allies, protect the natural world, and
+          inspire their bardic works. Such works tend to be based on well-known
+          Moonshae myths such as the whimsy of fairy pranksters, the viciousness
+          of the Beast, and the mysteries of the moonwells.</p>
+      style: ''
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!journal.pages!uarsSubclasses00.OGg3eAW6ujJPIfmY'
+  - sort: 200000
+    name: Knowledge Domain (Cleric)
+    type: subclass
+    _id: 0U02KO2bGOXdFVH8
+    system:
+      item: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsKnowledgeDom
+      description:
+        value: >-
+          <blockquote><p>Unearth Secrets and Master the
+          Mind</p></blockquote><p>The Knowledge Domain values learning and
+          understanding above all. Clerics who tap into this domain study
+          esoteric lore, collect old tomes, delve into the secret places of the
+          earth, and examine the process of the mind itself.</p><p>Gods of
+          knowledge vary from masters of arcane magic to patrons of craft and
+          invention. To them, knowledge is more valuable than material wealth,
+          and the desire to learn is an act of worship. Libraries, universities,
+          and other institutions dedicated to education also draw on the power
+          of the Knowledge Domain.</p><p>On Faerûn, Clerics of the Knowledge
+          Domain worship deities of learning and ingenuity like Oghma and Gond.
+          Other powerful deities—such as Asmodeus, Mystra, Savras, and
+          Jergal—also count Clerics of the Knowledge Domain among their
+          devotees, as do less-common divinities like Deneir, the Scribe of
+          Oghma, and Azuth, servant of Mystra.</p><hr><h3>Design Note: Knowledge
+          Domain Updates</h3><p>Here are the main updates in this subclass since
+          its appearance in the <em>Player’s Handbook</em>
+          (2014):</p><ul><li><p><strong>Blessings of Knowledge</strong> now
+          gives you proficiency with a type of Artisan’s
+          Tools.</p></li><li><p><strong>Knowledge Domain</strong> Spells have
+          been updated to include more damaging and combat-relevant options. The
+          number of spells has also increased.</p></li><li><p><strong>Mind
+          Magic</strong> is a new feature that allows you to expend a use of
+          Channel Divinity to cast one of your domain spells without expending a
+          spell slot.</p></li><li><p><strong>Unfettered Mind</strong> is a new
+          feature that grants you telepathy and consistent Intelligence
+          checks.</p></li><li><p><strong>Divine Foreknowledge</strong> is a new
+          feature that allows you to gain Advantage on D20 Tests for 1
+          hour.</p></li></ul><hr>
+      style: ''
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!journal.pages!uarsSubclasses00.0U02KO2bGOXdFVH8'
+  - sort: 300000
+    name: Purple Dragon Knight (Fighter)
+    type: subclass
+    _id: Xh1GTvSz17lL7APR
+    system:
+      item: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsPurpleDragon
+      description:
+        value: >-
+          <blockquote><p>Herald the Majesty of Amethyst
+          Dragons</p></blockquote><p>The Purple Dragon Knights are paragons of
+          valor and leadership who partner with amethyst dragons. Such knights
+          aspire to protect the innocent and rally fellow adventurers to the
+          causes of justice and freedom. Although the Purple Dragons were
+          originally founded in Cormyr, new recruits are enlisted from any
+          realms where chivalry is in abundance, including the Silver Marches,
+          Damara, and Chessenta.</p><p>Characters with this subclass are special
+          among the order. Unlike most Purple Dragons, who partner with amethyst
+          dragons who’ve already reached adulthood, a Purple Dragon Knight
+          character psionically bonds with an amethyst dragon hatchling. This
+          bond irrevocably transforms both dragon and knight, allowing the
+          dragon to grow in strength alongside its partner
+          knight.</p><hr><h3>Design Note: Purple Dragon Knight
+          Updates</h3><p>Here are the main updates in this subclass since its
+          appearance in <em>Sword Coast Adventurer’s
+          Guide</em>:</p><ul><li><p><strong>Knightly Envoy</strong> (formerly
+          Royal Envoy) has been moved to level 3. It now lets you learn an
+          additional language and cast the Comprehend Languages spell as a
+          Ritual.</p></li><li><p><strong>Purple Dragon Companion</strong> is a
+          new feature that gives the Purple Dragon Knight a dragon
+          companion.</p></li><li><p><strong>Dragon Rider</strong> is a new
+          feature that improves the dragon companion, allowing you to heal it
+          with your Second Wind and ride it in a limited
+          capacity.</p></li><li><p><strong>Rallying Surge</strong> (formerly
+          Inspiring Surge) now lets you choose up to three creatures within a
+          more limited radius. It also gives chosen creatures a retreat
+          option.</p></li><li><p><strong>Amethyst Pinnacle</strong> is a new
+          feature that again improves your dragon companion, allowing you to
+          ride it unrestricted and attack in
+          tandem.</p></li><li><p><strong>Enduring Commander</strong> is a new
+          feature that grants both you and your dragon companion
+          Resistances.</p><hr></li></ul>
+      style: ''
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!journal.pages!uarsSubclasses00.Xh1GTvSz17lL7APR'
+  - sort: 400000
+    name: Oath of the Noble Genies (Paladin)
+    type: subclass
+    _id: huCUuqbEwIOT9j6T
+    system:
+      item: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsNobleGeniesO
+      description:
+        value: >-
+          <blockquote><p>Brandish the Elemental Splendor of
+          Genies</p></blockquote><p>Paladins sworn to the Oath of the Noble
+          Genies revere the forces of the Elemental Planes. Through taking this
+          oath, Paladins draw power from the four different types of genies—dao,
+          masters of earth; djinn, masters of air; efreet, masters of fire; and
+          marids, masters of water—to create splendid and destructive displays
+          of elemental might.</p><p>On Faerûn, many Paladins who swear this oath
+          hail from Calimshan, a land rife with genie-kind. Despite their strong
+          local ties, these Calishite Paladins often undertake quests that take
+          them all over the Realms and across the multiverse—including,
+          naturally, the Elemental Planes.</p><p>These paladins share the
+          following tenets:</p><ul><li><p>Beget creation with
+          destruction.</p></li><li><p>Lead with splendor and
+          grace.</p></li><li><p>Respect the elements, and fear their
+          wrath.</p></li></ul>
+      style: ''
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!journal.pages!uarsSubclasses00.huCUuqbEwIOT9j6T'
+  - sort: 500000
+    name: Winter Walker (Ranger)
+    type: subclass
+    _id: o3SIBSJbY5pk4B4e
+    system:
+      item: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsWinterWalker
+      description:
+        value: >-
+          <blockquote><p>Withstand the Horrors of Frigid
+          Wastelands</p></blockquote><p>Winter Walkers hone their craft in the
+          bleak and frozen wilds of places like Icewind Dale. Rimed with ice,
+          these ruthless Rangers hunt the monsters that haunt arctic wastelands,
+          eventually becoming frigid terrors themselves.</p><p>More so than any
+          other Rangers of Icewind Dale, Winter Walkers are known to be well
+          versed in the paranormal phenomena specific to the realm, including
+          the latent magic of fallen Netherese cities, endemic monsters like
+          yetis and crag cats, and the rising threat of Underdark invaders. In
+          exchange for their cold pragmatism, terrifying magic, and mastery of
+          the region, these Winter Walkers are regarded with equal parts respect
+          and fear.</p><p>Ten-Towns citizens say that it is Winter Walkers’
+          frequent exposure to malignant entities that gives them their fearsome
+          powers. Many Reghed nomads, on the other hand, believe that nature
+          spirits bestow Winter Walkers with a unique curse.</p>
+      style: ''
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!journal.pages!uarsSubclasses00.o3SIBSJbY5pk4B4e'
+  - sort: 600000
+    name: Scion of the Three (Rogue)
+    type: subclass
+    _id: TFb63WswuTBgBSek
+    system:
+      item: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsScionoftheTh
+      description:
+        value: >-
+          <blockquote><p>Become a Gruesome Agent of Malice</p></blockquote><p>A
+          Scion of the Three draws power from a group of malevolent gods known
+          as the Dead Three: Bane, deity of tyranny; Bhaal, deity of violence
+          and murder; and Myrkul, deity of death. While some Rogues of this
+          subclass pledge themselves ardently to those three macabre gods,
+          others find themselves thrust on this path by a curse. Either way, a
+          scion’s power manifests as various occult gifts, as well as an uncanny
+          talent for striking and terrifying foes.</p><p>Scions of the Three are
+          most common in Baldur’s Gate, where the Dead Three have long competed
+          for influence over mortal hearts. Underground cults to Bane, Bhaal,
+          and Myrkul often count Scions of the Three among their most useful
+          agents. Outside Baldur’s Gate, secular thieves’ guilds such as the
+          Shadow Thieves of Amn or Xanathar’s guild in Waterdeep might
+          cautiously call on a Scion of the Three to undertake an especially
+          violent contract.</p>
+      style: ''
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!journal.pages!uarsSubclasses00.TFb63WswuTBgBSek'
+  - sort: 700000
+    name: Spellfire Sorcery (Sorcerer)
+    type: subclass
+    _id: 1UGpR1C7GS9Nxxvx
+    system:
+      item: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsSpellfireSor
+      description:
+        value: >-
+          <blockquote><p>Radiate Raw Magic Potential</p></blockquote><p>Your
+          innate power stems from the source of magic itself: the Weave. This
+          connection manifests as a rare ability known as spellfire, and you
+          surge with radiant bursts of this raw magic. Your talent with
+          spellfire allows you to heal allies, sear enemies, and absorb powerful
+          spells.</p><p>Wielders of spellfire tend to be adventurous souls with
+          penchants for wandering. Many travel between cosmopolitan settlements,
+          such as those along the Sword Coast, and wield their magic in service
+          of the common good. Others prioritize the realization of their own
+          strange powers by roaming equally strange lands, from the
+          magic-blasted wastes of the Anauroch Desert to the god-touched wilds
+          of the Old Empires. Wherever they go in the Realms, spellfire
+          Sorcerers are often courted by factions with interests in the arcane
+          arts, such as the Harpers and the Cult of the Dragon.</p>
+      style: ''
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!journal.pages!uarsSubclasses00.1UGpR1C7GS9Nxxvx'
+  - sort: 800000
+    name: Bladesinger (Wizard)
+    type: subclass
+    _id: mFAYYtMWAESSFUf4
+    system:
+      item: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsBladesingerW
+      description:
+        value: >-
+          <blockquote><p>Wield Sword and Sorcery in Elegant
+          Tandem</p></blockquote><p>Bladesingers master a tradition of wizardry
+          that incorporates swordplay and dance. In combat, a Bladesinger uses a
+          series of intricate, elegant maneuvers that fend off harm and allow
+          the Bladesinger to channel magic into devastating attacks and a
+          cunning defense. Many who have observed a Bladesinger at work remember
+          the display as one of the more beautiful experiences in their life, a
+          glorious dance accompanied by a singing blade.</p><p>Bladesinging is
+          strongly associated with the ancient elven societies that first
+          mastered the art and coined the term. Even today, most Bladesingers
+          still hail from old elven realms, such as Cormanthyr, or from
+          non-elven societies that share land and history with elves, such as
+          the Silver Marches. Wherever they hail from, Bladesingers are known
+          for taking their talents all across the Realms in order to help common
+          people and perform heroic deeds. Few communities greet the arrival of
+          a Bladesinger as anything but a good omen.</p><hr><h3>Design Note:
+          Bladesinger Updates</h3><p>Here are the main updates in this subclass
+          since its appearance in Tasha’s Cauldron of
+          Everything:</p><ul><li><p><strong>Bladesong</strong> now allows you to
+          use your Intelligence modifier for attack and damage rolls while the
+          song is active. The number of uses is now tied to your Intelligence
+          modifier.</p></li><li><p><strong>Training in War and Song</strong> now
+          grants you proficiency in a skill chosen from a list of options.
+          Expanded weapon proficiencies have replaced armor training, and you
+          can now use a weapon as a Spellcasting
+          Focus.</p></li><li><p><strong>Song of Victory</strong> now allows you
+          to make a weapon attack as a Bonus Action after casting a spell with
+          an action.</p></li></ul><hr>
+      style: ''
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!journal.pages!uarsSubclasses00.mFAYYtMWAESSFUf4'
+folder: null
+categories: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: dnd-players-handbook.PlayersHandbookJournalSheet
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774320659164
+  modifiedTime: 1774376208967
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!journal!uarsSubclasses00'

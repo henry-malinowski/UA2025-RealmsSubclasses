@@ -1,0 +1,87 @@
+folder: 7EcXvmuOeu7xMk5x
+name: College of the Moon
+type: subclass
+_id: uarsComCollegeof
+img: >-
+  modules/UA2025-RealmsSubclasses/assets/icons/subclasses/college-of-the-moon.webp
+system:
+  advancement:
+    - type: ItemGrant
+      title: Subclass Features
+      _id: o9RYyyeQ9oBOUdl8
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsComMoonshaeF
+            optional: false
+          - uuid: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsComPrimalLor
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: SHrlQeIknzmEEUIj
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsComBlessingo
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: 2jOO3LaYspex5KDK
+      configuration:
+        items:
+          - uuid: Compendium.UA2025-RealmsSubclasses.classes.Item.uarsComBolstered
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      hint: ''
+  description:
+    value: >-
+      <blockquote><p>Inspire Allies with Primal Tales</p></blockquote><p>The
+      College of the Moon traces its origins to the ancient druidic circles of
+      the Moonshae Isles, who entrusted the first Bards of this tradition with
+      chronicling the stories of the islands and their people. Bards of this
+      college draw from the isles’ Fey magic and the primal power of the
+      moonwells to bolster their allies, protect the natural world, and inspire
+      their bardic works. Such works tend to be based on well-known Moonshae
+      myths such as the whimsy of fairy pranksters, the viciousness of the
+      Beast, and the mysteries of the moonwells.</p>
+    chat: ''
+  identifier: college-moon
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  classIdentifier: bard
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 100000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774376148113
+  modifiedTime: 1774376331209
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uarsComCollegeof'

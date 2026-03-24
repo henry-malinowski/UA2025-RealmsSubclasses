@@ -1,0 +1,123 @@
+folder: vvc40Vrh2pQXTe7b
+name: Knightly Envoy
+type: feat
+_id: uarsPdkKnightlyE
+img: icons/magic/control/control-influence-rally-purple.webp
+system:
+  activities:
+    KpSiVAM1f55Qgvn2:
+      type: cast
+      _id: KpSiVAM1f55Qgvn2
+      sort: 0
+      activation:
+        type: minute
+        override: true
+        condition: ''
+        value: 10
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      spell:
+        challenge:
+          override: false
+        properties: []
+        spellbook: false
+        uuid: Compendium.dnd-players-handbook.spells.Item.phbsplComprehend
+        ability: int
+        level: 1
+      name: ''
+      img: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: Trait
+      _id: 4hyQ6uOMf0p36aJL
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - languages:*
+        grants: []
+        mode: default
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
+  description:
+    value: >-
+      <p>You learn one language of your choice, which you choose from the
+      language tables in the Player’s Handbook. </p><p>Additionally, you can
+      cast the
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplComprehend]{Comprehend
+      Languages} spell but only as a Ritual. Intelligence is your spellcasting
+      ability for it.</p>
+    chat: ''
+  identifier: knightly-envoy
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties: []
+  requirements: Purple Dragon Knight
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774376633053
+  modifiedTime: 1774378564159
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uarsPdkKnightlyE'
