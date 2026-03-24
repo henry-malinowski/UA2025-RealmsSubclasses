@@ -1,0 +1,123 @@
+# GitHub Actions workflow for creating module files when a release is published.
+#
+# This workflow runs automatically when a GitHub release is published.
+# It extracts the version from the release tag name (github.event.release.tag_name).
+
+name: Create Module Files For Release
+
+env:
+  # The URL used for the module's "Project URL" link on FoundryVTT's website.
+  project_url: "https://github.com/${{github.repository}}"
+
+  # The manifest URL for this specific release version.
+  # Points to the latest release manifest.
+  version_manifest_url: "https://github.com/${{github.repository}}/releases/latest/download/module.json"
+
+  # The URL to the module archive associated with the module release being
+  # processed by this workflow.
+  release_module_url: "https://github.com/${{github.repository}}/releases/download/${{ github.event.release.tag_name }}/module.zip"
+
+on:
+  # Only run this workflow when a release is published.
+  release:
+    types: [published]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.release.tag_name }}
+          fetch-depth: 0
+          fetch-tags: true
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Compile packs
+        run: bun run build:db
+
+      - name: Download esbuild binary
+        run: |
+          curl -fsSL https://esbuild.github.io/dl/latest -o install-esbuild.sh
+          sh install-esbuild.sh
+
+      # Determine esmodule entry point (Required)
+      - name: Determine esmodule entry point
+        id: set_mjs_entry
+        run: |
+          jq -r '
+            (.esmodules[0] // error("Missing esmodules[0]")) as $mjs |
+            "entry_mjs=" + $mjs,
+            "min_mjs=build/" + ($mjs | split("/") | last | sub("\\.mjs$"; "") + ".min.mjs")
+          ' module.json >> $GITHUB_OUTPUT
+
+      # Bundle and minify scripts
+      - name: Bundle and minify scripts
+        run: |
+          rm -rf build
+          mkdir -p build
+          ./esbuild "${{ steps.set_mjs_entry.outputs.entry_mjs }}" \
+            --bundle \
+            --minify \
+            --sourcemap \
+            --format=esm \
+            --target=esnext \
+            --analyze \
+            --outfile="${{ steps.set_mjs_entry.outputs.min_mjs }}"
+
+      # Modify "module.json" with values specific to the release.
+      # The version is extracted from the tag name by removing the leading 'v' if present.
+      - name: Modify Module Manifest With Release-Specific Values
+        run: |
+          TAG_NAME="${{ github.event.release.tag_name }}"
+          jq --arg version "${TAG_NAME#v}" \
+             --arg url "${{ env.project_url }}" \
+             --arg manifest "${{ env.version_manifest_url }}" \
+             --arg download "${{ env.release_module_url }}" \
+             --arg esmodule "${{ steps.set_mjs_entry.outputs.min_mjs }}" \
+             '.version = $version | .url = $url | .manifest = $manifest | .download = $download | .esmodules = [$esmodule]' \
+             module.json > module.json.tmp
+          mv module.json.tmp module.json
+
+      # Create a "module.zip" archive containing all the module's required files.
+      - name: Create Module Archive
+        run: |
+          zip                                    \
+            `# Options`                          \
+            --recurse-paths                      \
+            `# The name of the output file`      \
+             ./module.zip                        \
+            `# The files that will be included.` \
+            module.json                          \
+            README.md                            \
+            CHANGELOG.md                         \
+            LICENSE                              \
+            assets/                              \
+            build/                               \
+            templates/                           \
+            styles/                              \
+            lang/                                \
+            packs/                               \
+            --exclude "packs/_source/*"
+
+      # Update the GitHub release with the manifest and module archive files.
+      - name: Update Release With Files
+        uses: ncipollo/release-action@v1
+        with:
+          allowUpdates: true
+          name: ${{ github.event.release.name }}
+          draft: false
+          prerelease: ${{ github.event.release.prerelease }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          artifacts: "./module.json, ./module.zip"
+          tag: ${{ github.event.release.tag_name }}
+          body: ${{ github.event.release.body }}
